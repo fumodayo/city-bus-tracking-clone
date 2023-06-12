@@ -1,13 +1,12 @@
 import ClientOnly from "@/components/ClientOnly";
-import Container from "@/components/Container";
+import MapContainer from "@/components/MapContainer";
+import Sidebar from "@/components/sidebar/Sidebar";
 
 const Home = () => {
   return (
     <ClientOnly>
-      <Container>
-        <div
-          className="
-          pt-24
+      <div
+        className="
           grid 
           grid-cols-1
           sm:grid-cols-2
@@ -15,11 +14,13 @@ const Home = () => {
           lg:grid-cols-4
           xl:grid-cols-5
           2xl:grid-cols-6
-          gap-8"
-        >
-          Hi
-        </div>
-      </Container>
+          gap-8
+        "
+      >
+        <MapContainer>
+          <Sidebar />
+        </MapContainer>
+      </div>
     </ClientOnly>
   );
 };

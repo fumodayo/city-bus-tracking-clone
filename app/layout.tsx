@@ -1,4 +1,4 @@
-import { Nunito } from "next/font/google";
+import { Roboto } from "next/font/google";
 
 import "./global.css";
 
@@ -7,8 +7,11 @@ export const metadata = {
   description: "Danabus clone",
 };
 
-const font = Nunito({
+const font = Roboto({
+  weight: ["100", "300", "400", "500", "700", "900"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
+  display: "swap",
 });
 
 export default async function RootLayout({
