@@ -1,26 +1,35 @@
 "use client";
 
 import ListingCard from "./ListingCard";
+import routesData from "../../data/routes.json";
+import { SafeRoutes, SafeStations } from "../types";
 
-const ListingInfo = () => {
+interface ListingInfoProps {
+  listings: SafeRoutes[] | SafeStations[];
+}
+
+const ListingInfo: React.FC<ListingInfoProps> = ({ listings }) => {
+  console.log(listings);
   return (
     <div
       className="
         p-5 
         flex
         flex-col
-        max-h-[640px]
+        max-h-[450px]
         overflow-y-scroll
         overflow-x-hidden
-        
       "
     >
-      <ListingCard
-        code="LK01"
-        name="Tuyến số LK01"
-        description="Huế - Đà Nẵng"
-        color="#ff1500"
-      />
+      {listings.map((route, index) => (
+        <ListingCard
+          key={route.code}
+          code={route.code ? route.code : index}
+          name={route.name}
+          description={route.address}
+          color={route.color}
+        />
+      ))}
     </div>
   );
 };

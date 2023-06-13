@@ -1,0 +1,58 @@
+[
+  {
+    "code": "LK01",
+    "name": "Tuyến LK01",
+    "address": "Huế-Đà Nẵng",
+    "routeDirectionStart": "Lê Thạch - Tôn Đức Thắng - Nguyễn Lương Bằng - Tạ Quang Bửu - An Dương Vương",
+    "routeDirectionReturn": "An Dương Vương - Nguyễn Lương Bằng - Tôn Đức Thắng - Lê Thạch",
+    "color": "rgb(255, 0, 0)"
+  },
+  {
+    "code": "R15",
+    "name": "Tuyến R15",
+    "address": "Bến xe Trung tâm – Thọ Quang",
+    "routeDirectionStart": "Lê Thạch - Tôn Đức Thắng - Huỳnh Ngọc Huệ - Hà Huy Tập - Thái Thị Bôi - Võ Văn Tần - Hải Phòng - Ông Ích Khiêm - Nguyễn Hoàng - Nguyễn Văn Linh - Võ Văn Kiệt - Hồ Nghinh - Hà Kỳ Ngộ - Nguyễn Sáng - Hoàng Sa - Nguyễn Phan Vinh",
+    "routeDirectionReturn": "Nguyễn Phan Vinh - Hoàng Sa - Nguyễn Sáng - Hà Kỳ Ngộ - Hồ Nghinh - Võ Văn Kiệt - Nguyễn Văn Linh - Nguyễn Hoàng - Ông Ích Khiêm - Hải Phòng - Võ Văn Tần - Thái Thị Bôi - Hà Huy Tập - Huỳnh Ngọc Huệ - Tôn Đức Thắng - Lê Thạch",
+    "color": "rgb(125, 6, 6)"
+  },
+  {
+    "code": "R16",
+    "name": "Tuyến R16",
+    "address": "Kim Liên - Đại học Việt Hàn",
+    "routeDirectionStart": "Nguyễn Văn Cừ - Nguyễn Lương Bằng - Tôn Đức Thắng - Điện Biên Phủ - Lý Thái Tổ - Hùng Vương - Trần Phú - Võ Văn Kiệt - Ngô Quyền - Ngũ Hành Sơn - Lê Văn Hiến - Trần Đại Nghĩa",
+    "routeDirectionReturn": "Trần Đại Nghĩa - Lê Văn Hiến - Ngũ Hành Sơn - Ngô Quyền - Võ Văn Kiệt - Bạch Đằng - Hùng Vương - Lý Thái Tổ - Điện Biên Phủ - Tôn Đức Thắng - Nguyễn Lương Bằng - Nguyễn Văn Cừ",
+    "color": "rgb(8, 26, 130)"
+  },
+  {
+    "code": "R17A",
+    "name": "Tuyến R17A",
+    "address": "Cảng Sông Hàn – TTHC huyện Hòa Vang",
+    "routeDirectionStart": "Như Nguyệt - Trần Phú - Lý Tự Trọng - Nguyễn Thị Minh Khai - Hùng Vương - Trưng Nữ Vương - Núi Thành - Cách Mạng Tháng Tám - Trường Sơn - Quảng Xương - Quốc Lộ 14B",
+    "routeDirectionReturn": "Quảng Xương - Trường Sơn - Cách Mạng Tháng Tám - Núi Thành - Đường 2 Tháng 9 - Bạch Đằng - Hùng Vương - Nguyễn Thị Minh Khai - Lý Tự Trọng - Như Nguyệt",
+    "color": "rgb(255, 25, 86)"
+  },
+  {
+    "code": "R4A",
+    "name": "Tuyến R4A",
+    "address": "Cảng Sông Hàn - Hòa Tiến",
+    "routeDirectionStart": "Như Nguyệt - Đống Đa - Ông Ích Khiêm - Nguyễn Văn Linh - Đường 2 Tháng 9 - Núi Thành - Đường 30 Tháng 4 - Nguyễn Hữu Thọ - Lê Đại Hành - Ông Ích Đường - Cách Mạng Tháng Tám - Trường Chinh - Quốc lộ 1A - Đường 605",
+    "routeDirectionReturn": "Đường 605 - Quốc lộ 1A - Trường Chinh - Cách Mạng Tháng Tám - Ông Ích Đường - Lê Đại Hành - Nguyễn Hữu Thọ - Đường 30 Tháng 4 - Núi Thành - Đường 2 Tháng 9 - Nguyễn Văn Linh - Ông Ích Khiêm - Đống Đa - Như Nguyệt",
+    "color": "rgb(237, 153, 112)"
+  },
+  {
+    "code": "R6A",
+    "name": "Tuyến R6A",
+    "address": "Bến xe Trung tâm – Khu du lịch Non Nước",
+    "routeDirectionStart": "Lê Thạch - Đinh Liệt - Nguyễn Đình Tứ - Tôn Đản - Lê Trọng Tấn - Trường Chinh - Lê Đại Hành - Nguyễn Hữu Thọ - Đường 30 Tháng 4 - Núi Thành - Đường 2 Tháng 9 - Tiên Sơn - Ngũ Hành Sơn - Phan Tứ - Võ Nguyên Giáp - Trường Sa - Mộc Sơn 3",
+    "routeDirectionReturn": "Mộc Sơn 3 - Trường Sa - Võ Nguyên Giáp - Phan Tứ - Ngũ Hành Sơn - Tiên Sơn - Xô Viết Nghệ Tĩnh - Đường 2 Tháng 9 - Núi Thành - Đường 30 Tháng 4 - Nguyễn Hữu Thọ - Lê Đại Hành - Trường Chinh - Lê Trọng Tấn - Tôn Đản - Nguyễn Đình Tứ - Đinh Liệt - Lê Thạch",
+    "color": "rgb(7, 217, 0)"
+  },
+  {
+    "code": "TMF",
+    "name": "Tuyến TMF",
+    "address": "Bàu Tràm - CV Biển Đồng",
+    "routeDirectionStart": "Đường Mê Linh, đường số 5 - Nguyễn Lương Bằng - Nguyễn Chánh - Nguyễn Tất Thành - Trần Đình Tri - Kinh Dương Vương - Lý Thái Tông - Dũng Sĩ Thanh Khê - Trần Cao Vân - Quang Trung - Lê Lợi - Lê Duẩn - Phạm Văn Đồng - Võ Nguyên Giáp",
+    "routeDirectionReturn": "Võ Nguyên Giáp - Phạm Văn Đồng - Lê Duẩn - Nguyễn Chí Thanh - Quang Trung - Trần Cao Vân - Dũng Sĩ Thanh Khê - Lý Thái Tông - Kinh Dương Vương - Trần Đình Tri - Nguyễn Tất Thành - Nguyễn Chánh - Nguyễn Lương Bằng - Đường Mê Linh, đường số 5",
+    "color": "rgb(21, 95, 120)"
+  }
+]

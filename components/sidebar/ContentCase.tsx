@@ -3,8 +3,12 @@
 import { useState } from "react";
 
 import { FaBus } from "react-icons/fa";
+
 import SearchInput from "../inputs/SearchInput";
 import ListingInfo from "../listings/ListingInfo";
+
+import routesData from "../../data/routes.json";
+import stationsData from "../../data/stations.json";
 
 enum OPTIONS {
   ROUTES = 0,
@@ -21,6 +25,14 @@ const ContentCase = () => {
   const onChooseBusStops = () => {
     setStep(OPTIONS.BUSSTOPS);
   };
+
+  let bodyContent = <ListingInfo listings={routesData} />;
+
+  if(step === OPTIONS.BUSSTOPS){
+    bodyContent = (
+      <ListingInfo listings={stationsData}/>
+    )
+  }
 
   return (
     <>
@@ -78,7 +90,7 @@ const ContentCase = () => {
             : "Nhập tên trạm dừng..."
         }
       />
-      <ListingInfo />
+      {bodyContent}
     </>
   );
 };

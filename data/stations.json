@@ -1,0 +1,4262 @@
+[
+  {
+    "name": "Bến xe Đà Nẵng",
+    "location": {
+      "lat": 16.056027725183,
+      "lng": 108.17246204884
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "294 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.056489,
+      "lng": 108.168252
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "294 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "640 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.064670667946,
+      "lng": 108.1564643866
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "640 Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Trường Đại học Bách Khoa",
+    "location": {
+      "lat": 16.07276,
+      "lng": 108.150242
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "290 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.082977,
+      "lng": 108.146028
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "290 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "546 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.100214,
+      "lng": 108.135404
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "546 Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "636  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.105172587227,
+      "lng": 108.13287810859
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "636  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "922  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.114939243966,
+      "lng": 108.12682543154
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "922  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Trụ điện CS 27 (cách đường số 4 khoảng 100m)",
+    "location": {
+      "lat": 16.113213,
+      "lng": 108.128178
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "Tạ Quang Bửu   Đà Nẵng"
+  },
+  {
+    "name": "Bến xe Phía Nam Huế",
+    "location": {
+      "lat": 16.450211,
+      "lng": 107.605643
+    },
+    "direction": "turn",
+    "codeRoute": "LK01",
+    "address": "Bến xe Phía Nam Huế, An Đông, Huế, Thừa Thiên Huế"
+  },
+  {
+    "name": "Bến xe Đà Nẵng",
+    "location": {
+      "lat": 16.056027725183,
+      "lng": 108.17246204884
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "171 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.05834798014253,
+      "lng": 108.1737143502416
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "171 Tôn Đức Thắng, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "32-34 Huỳnh Ngọc Huệ",
+    "location": {
+      "lat": 16.06409,
+      "lng": 108.183889
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "32-34 Huỳnh Ngọc Huệ, Thanh Khê Đông, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "142-144 Huỳnh Ngọc Huệ",
+    "location": {
+      "lat": 16.05947,
+      "lng": 108.185892
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "142-144 Huỳnh Ngọc Huệ, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 224 Hà Huy Tập",
+    "location": {
+      "lat": 16.061061,
+      "lng": 108.190943
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Đối diện 224 Hà Huy Tập, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "133-135 Hà Huy Tập",
+    "location": {
+      "lat": 16.063857,
+      "lng": 108.191989
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "133-135 Hà Huy Tập, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "257-259 Thái Thị Bôi",
+    "location": {
+      "lat": 16.068081,
+      "lng": 108.192876
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "257-259 Thái Thị Bôi, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "65-67 Thái Thị Bôi",
+    "location": {
+      "lat": 16.068356,
+      "lng": 108.199568
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "65-67 Thái Thị Bôi, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "09 Võ Văn Tần",
+    "location": {
+      "lat": 16.066801,
+      "lng": 108.202299
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "09 Võ Văn Tần, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "461 Hải Phòng",
+    "location": {
+      "lat": 16.068305,
+      "lng": 108.204964
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "461 Hải Phòng, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "305 Hải Phòng",
+    "location": {
+      "lat": 16.070781,
+      "lng": 108.208841
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "305 Hải Phòng, Tân Chính, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "231 Hải Phòng",
+    "location": {
+      "lat": 16.071219,
+      "lng": 108.211018
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "231 Hải Phòng, Tân Chính, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "438-440 Ông Ích Khiêm",
+    "location": {
+      "lat": 16.066019,
+      "lng": 108.214385
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "438-440 Ông Ích Khiêm, , Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "162-164 Nguyễn Hoàng",
+    "location": {
+      "lat": 16.061309,
+      "lng": 108.213734
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "162-164 Nguyễn Hoàng, Vĩnh Trung, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "155 Nguyễn Văn Linh",
+    "location": {
+      "lat": 16.060386843763453,
+      "lng": 108.21502690808086
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "155 Nguyễn Văn Linh, Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện chùa Phước Ninh",
+    "location": {
+      "lat": 16.060707,
+      "lng": 108.217851
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "11-15 Nguyễn Văn Linh",
+    "location": {
+      "lat": 16.060907,
+      "lng": 108.222115
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "11-15 Nguyễn Văn Linh, Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Cầu Rồng (số chẵn đường Võ Văn Kiệt)",
+    "location": {
+      "lat": 16.061254311798,
+      "lng": 108.23361034924
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Cầu Rồng (số chẵn đường Võ Văn Kiệt), An Hải Tây, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Vườn cây cảnh Công Thuấn",
+    "location": {
+      "lat": 16.062137,
+      "lng": 108.239297
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Vườn cây cảnh Công Thuấn, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Trụ điện CS08T3 VVK",
+    "location": {
+      "lat": 16.063015,
+      "lng": 108.242781
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Trụ điện CS08T3 VVK, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Gần ngã tư Hồ Nghinh - Dương Đình Nghệ",
+    "location": {
+      "lat": 16.069153,
+      "lng": 108.243161
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Gần ngã tư Hồ Nghinh - Dương Đình Nghệ, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện quán HaiYan",
+    "location": {
+      "lat": 16.072663,
+      "lng": 108.243023
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Đối diện quán HaiYan, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Trường Chính trị",
+    "location": {
+      "lat": 16.078713,
+      "lng": 108.242992
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Đối diện Trường Chính trị, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Motel Hương Việt",
+    "location": {
+      "lat": 16.082386,
+      "lng": 108.244389
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Motel Hương Việt, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 78 Nguyễn Sáng",
+    "location": {
+      "lat": 16.086411,
+      "lng": 108.24649
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Đối diện 78 Nguyễn Sáng, Mân Thái, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Bãi tắm Mân Thái",
+    "location": {
+      "lat": 16.090284,
+      "lng": 108.250115
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Bãi tắm Mân Thái, Mân Thái, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Thọ Quang",
+    "location": {
+      "lat": 16.099556,
+      "lng": 108.254962
+    },
+    "direction": "turn",
+    "codeRoute": "R15",
+    "address": "Thọ Quang, Thọ Quang, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "171 Nguyễn Văn Cừ",
+    "location": {
+      "lat": 16.135483,
+      "lng": 108.119587
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "171 Nguyễn Văn Cừ, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "101 Nguyễn Văn Cừ",
+    "location": {
+      "lat": 16.133032,
+      "lng": 108.119458
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "101 Nguyễn Văn Cừ, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Ximăng Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.12963,
+      "lng": 108.119329
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Ximăng Ngũ Hành Sơn, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "19 Nguyễn Văn Cừ",
+    "location": {
+      "lat": 16.124131,
+      "lng": 108.120777
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "19 Nguyễn Văn Cừ, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "957 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.112619070434974,
+      "lng": 108.1286021590899
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "957 Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "817  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.104981893327,
+      "lng": 108.13294784602
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "817  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "ĐD 546 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.100133,
+      "lng": 108.135269
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "ĐD 546 Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "497  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.090027180268,
+      "lng": 108.14286743966
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "497  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "421  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.08652997059,
+      "lng": 108.1443077859
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "421  Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "339  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.083094552879,
+      "lng": 108.14572533337
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "339  Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Bệnh viện tâm thần",
+    "location": {
+      "lat": 16.080103655117,
+      "lng": 108.14694439737
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Bệnh viện tâm thần, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Trường Cao đẳng kế hoạch",
+    "location": {
+      "lat": 16.076201632086,
+      "lng": 108.14853360621
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Trường Cao đẳng kế hoạch, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "27 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.072716,
+      "lng": 108.150064
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "27 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "755-757 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.071345338984,
+      "lng": 108.15053491831
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "755-757 Tôn Đức Thắng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Khu vui chơi trẻ em đường Tôn Đức Thắng",
+    "location": {
+      "lat": 16.066575272256,
+      "lng": 108.15316402797
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Khu vui chơi trẻ em đường Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "459 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.062543207239,
+      "lng": 108.15922167133
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "459 Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Showroom Trường Hải",
+    "location": {
+      "lat": 16.060044267959,
+      "lng": 108.16296924038
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Showroom Trường Hải, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "341 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.057249137006,
+      "lng": 108.16665917845
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "341 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "321-323 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.056225841156,
+      "lng": 108.16835165232
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "321-323 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "219-221 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.056589279327,
+      "lng": 108.17137718409
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "219-221 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "137-139 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.05782775241,
+      "lng": 108.17302349281
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "137-139 Tôn Đức Thắng, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "171 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.05834798014253,
+      "lng": 108.1737143502416
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "171 Tôn Đức Thắng, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "559 Điện Biên Phủ",
+    "location": {
+      "lat": 16.065368915846,
+      "lng": 108.18442832196
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "559 Điện Biên Phủ, Thanh Khê Đông, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "407 Điện Biên Phủ",
+    "location": {
+      "lat": 16.065724604956,
+      "lng": 108.18888078893
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "407 Điện Biên Phủ, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "311 Điện Biên Phủ",
+    "location": {
+      "lat": 16.065725,
+      "lng": 108.192592
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "311 Điện Biên Phủ, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "135 Điện Biên Phủ",
+    "location": {
+      "lat": 16.06555,
+      "lng": 108.199178
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "135 Điện Biên Phủ, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Công viên 29/3",
+    "location": {
+      "lat": 16.06588543904401,
+      "lng": 108.20526748947368
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Công viên 29/3, Thạc Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 36-38 Điện Biên Phủ",
+    "location": {
+      "lat": 16.065998441301,
+      "lng": 108.20588591766
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Đối diện 36-38 Điện Biên Phủ, Thạc Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "85 Lý Thái Tổ",
+    "location": {
+      "lat": 16.066135866124,
+      "lng": 108.20825594727
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "85 Lý Thái Tổ, Thạc Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "331 Hùng Vương",
+    "location": {
+      "lat": 16.066575,
+      "lng": 108.210737
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "331 Hùng Vương, Vĩnh Trung, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "103 Hùng Vương",
+    "location": {
+      "lat": 16.06803270253,
+      "lng": 108.21794118251
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "103 Hùng Vương, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Công viên Hùng Vương",
+    "location": {
+      "lat": 16.068598,
+      "lng": 108.221833
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Công viên Hùng Vương, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "ĐD 151 Trần Phú",
+    "location": {
+      "lat": 16.067115214435,
+      "lng": 108.2237093266
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "ĐD 151 Trần Phú, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "UBND quận Hải Châu",
+    "location": {
+      "lat": 16.061998549605,
+      "lng": 108.2231957908
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "UBND quận Hải Châu, Phước Ninh, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Cầu Rồng (số chẵn đường Võ Văn Kiệt)",
+    "location": {
+      "lat": 16.061254311798,
+      "lng": 108.23361034924
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Cầu Rồng (số chẵn đường Võ Văn Kiệt), An Hải Tây, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "BV Quận Sơn Trà",
+    "location": {
+      "lat": 16.058179176551263,
+      "lng": 108.23526721650931
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "BV Quận Sơn Trà, An Hải Tây, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 1187 Ngô Quyền",
+    "location": {
+      "lat": 16.054480446716028,
+      "lng": 108.23640920315457
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Đối diện 1187 Ngô Quyền, An Hải Tây, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "180 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.047659290329904,
+      "lng": 108.23846087100839
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "180 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "310A Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.04274448775682,
+      "lng": 108.24069782197472
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "310A Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "370 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.039723,
+      "lng": 108.242166
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "370 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "40 Lê Văn Hiến",
+    "location": {
+      "lat": 16.036606203452,
+      "lng": 108.24368303974
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "40 Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Đài tưởng niệm liệt sĩ ngành bưu điện",
+    "location": {
+      "lat": 16.035331951293,
+      "lng": 108.24434334593
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "160 Lê Văn Hiến",
+    "location": {
+      "lat": 16.032571988877,
+      "lng": 108.2458822566
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "160 Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "256 Lê Văn Hiến",
+    "location": {
+      "lat": 16.02969313753,
+      "lng": 108.24725947045
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "256 Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "376 Lê Văn Hiến",
+    "location": {
+      "lat": 16.025458031964,
+      "lng": 108.24937736947
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "376 Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "470A Lê Văn Hiến",
+    "location": {
+      "lat": 16.017801012594,
+      "lng": 108.25328156617
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "470A Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "542 Lê Văn Hiến",
+    "location": {
+      "lat": 16.010588485555,
+      "lng": 108.25680757123
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "542 Lê Văn Hiến, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "618 Lê Văn Hiến",
+    "location": {
+      "lat": 16.006919331911,
+      "lng": 108.258677822
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "618 Lê Văn Hiến, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Công ty Hưng Thịnh",
+    "location": {
+      "lat": 15.994225,
+      "lng": 108.258405
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Công ty Hưng Thịnh, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "E152 Trần Đại Nghĩa",
+    "location": {
+      "lat": 15.982656,
+      "lng": 108.255827
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "E152 Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Bến xe buýt Đại học Việt Hàn",
+    "location": {
+      "lat": 15.974000716308737,
+      "lng": 108.25459415115165
+    },
+    "direction": "turn",
+    "codeRoute": "R16",
+    "address": "Bến xe buýt Đại học Việt Hàn, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Cảng Sông Hàn",
+    "location": {
+      "lat": 16.082542006424,
+      "lng": 108.22358683192
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "06 Trần Phú (VICELT)",
+    "location": {
+      "lat": 16.08140183980042,
+      "lng": 108.22268286368563
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "06 Trần Phú (VICELT), Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "12 Lý Tự Trọng",
+    "location": {
+      "lat": 16.07755378252655,
+      "lng": 108.22169830237544
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "12 Lý Tự Trọng, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "8 Nguyễn Thị Minh Khai",
+    "location": {
+      "lat": 16.075937,
+      "lng": 108.217779
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "8 Nguyễn Thị Minh Khai, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "102 Nguyễn Thị Minh Khai",
+    "location": {
+      "lat": 16.071838192241,
+      "lng": 108.21853308684
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "102 Nguyễn Thị Minh Khai, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "156 Nguyễn Thị Minh Khai",
+    "location": {
+      "lat": 16.069055,
+      "lng": 108.219
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "156 Nguyễn Thị Minh Khai, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 59 Hùng Vương",
+    "location": {
+      "lat": 16.068537515821,
+      "lng": 108.21999007574
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Đối diện 59 Hùng Vương, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Công viên Hùng Vương",
+    "location": {
+      "lat": 16.068598,
+      "lng": 108.221833
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Công viên Hùng Vương, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "ĐD 151 Trần Phú",
+    "location": {
+      "lat": 16.067115214435,
+      "lng": 108.2237093266
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "ĐD 151 Trần Phú, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "UBND quận Hải Châu",
+    "location": {
+      "lat": 16.061998549605,
+      "lng": 108.2231957908
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "UBND quận Hải Châu, Phước Ninh, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Bảo tàng điêu khắc Chăm",
+    "location": {
+      "lat": 16.060286928046224,
+      "lng": 108.22275794325202
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Đối diện Bảo tàng điêu khắc Chăm, Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "60 Núi Thành",
+    "location": {
+      "lat": 16.05292761415855,
+      "lng": 108.22029629261073
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "60 Núi Thành, Hoà Thuận Đông, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 161 Núi Thành",
+    "location": {
+      "lat": 16.046996125339,
+      "lng": 108.2210531804
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Đối diện 161 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "264-266 Núi Thành",
+    "location": {
+      "lat": 16.043053,
+      "lng": 108.221512
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "264-266 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "382 Núi Thành",
+    "location": {
+      "lat": 16.039300998619,
+      "lng": 108.22189042084
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "382 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "484 Núi Thành",
+    "location": {
+      "lat": 16.033923,
+      "lng": 108.222608
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "484 Núi Thành, Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "584 Núi Thành",
+    "location": {
+      "lat": 16.03125857841789,
+      "lng": 108.22270051872812
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "584 Núi Thành, Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Siêu thị Mega",
+    "location": {
+      "lat": 16.025785150482,
+      "lng": 108.21991095058
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Đối diện Siêu thị Mega, Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Bệnh viện Tâm Trí",
+    "location": {
+      "lat": 16.022901119486,
+      "lng": 108.21477172469
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Bệnh viện Tâm Trí, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "180 Cách Mạng Tháng 8",
+    "location": {
+      "lat": 16.01974690655335,
+      "lng": 108.21015057406731
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "180 Cách Mạng Tháng 8, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "294 - 296 Cách Mạng Tháng 8",
+    "location": {
+      "lat": 16.016830364457,
+      "lng": 108.20402422659
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "294 - 296 Cách Mạng Tháng 8, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Cầu vượt Hòa Cầm (492 Cách mạng tháng 8)",
+    "location": {
+      "lat": 16.014007338677,
+      "lng": 108.19699818007
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Cầu vượt Hòa Cầm (492 Cách mạng tháng 8), Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Phía tây cầu vượt Hòa Cầm",
+    "location": {
+      "lat": 16.012350887157,
+      "lng": 108.18795243017
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Phía tây cầu vượt Hòa Cầm, Hoà Thọ Tây, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "172 Trường Sơn",
+    "location": {
+      "lat": 16.011864,
+      "lng": 108.173596
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "172 Trường Sơn, Hoà Thọ Tây, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "242 Trường Sơn,Trường Quân Sự QK5",
+    "location": {
+      "lat": 16.011719595053,
+      "lng": 108.16926793223
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "242 Trường Sơn,Trường Quân Sự QK5, Hoà Thọ Tây, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Bệnh viện Hòa Vang",
+    "location": {
+      "lat": 16.008809,
+      "lng": 108.151797
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Bệnh viện Hòa Vang, Hoà Nhơn, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Trường TH Lâm Quang Thự",
+    "location": {
+      "lat": 15.997185660412,
+      "lng": 108.13724929205
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Trường TH Lâm Quang Thự, Hoà Phong, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Gần chợ Túy Loan 2",
+    "location": {
+      "lat": 15.991505929980534,
+      "lng": 108.13817236382852
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Gần chợ Túy Loan 2, Hoà Phong, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Chợ Túy Loan",
+    "location": {
+      "lat": 15.990720442811082,
+      "lng": 108.14061453379321
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "Quảng Xương Hoà Phong Hoà Vang Đà Nẵng"
+  },
+  {
+    "name": "TTHC Huyện Hòa Vang",
+    "location": {
+      "lat": 15.986349,
+      "lng": 108.139933
+    },
+    "direction": "turn",
+    "codeRoute": "R17A",
+    "address": "TTHC Huyện Hòa Vang, Hoà Phong, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Cảng Sông Hàn",
+    "location": {
+      "lat": 16.082542006424,
+      "lng": 108.22358683192
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "20 Đống Đa",
+    "location": {
+      "lat": 16.082483,
+      "lng": 108.220955
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "20 Đống Đa, Thuận Phước, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "106 Đống Đa",
+    "location": {
+      "lat": 16.080790629182,
+      "lng": 108.21879194554
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "106 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "240 Đống Đa",
+    "location": {
+      "lat": 16.077314,
+      "lng": 108.216387
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "240 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "322 Đống Đa",
+    "location": {
+      "lat": 16.075003,
+      "lng": 108.21486
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "322 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 299 Đống Đa",
+    "location": {
+      "lat": 16.072987,
+      "lng": 108.2135
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Đối diện 299 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "438-440 Ông Ích Khiêm",
+    "location": {
+      "lat": 16.066019,
+      "lng": 108.214385
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "438-440 Ông Ích Khiêm, , Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "522-524 Ông Ích Khiêm",
+    "location": {
+      "lat": 16.064086264156,
+      "lng": 108.21522513144
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "522-524 Ông Ích Khiêm, Hải Châu II, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "618 Ông Ích Khiêm",
+    "location": {
+      "lat": 16.061113,
+      "lng": 108.216672
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "618 Ông Ích Khiêm, Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện chùa Phước Ninh",
+    "location": {
+      "lat": 16.060707,
+      "lng": 108.217851
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "11-15 Nguyễn Văn Linh",
+    "location": {
+      "lat": 16.060907,
+      "lng": 108.222115
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "11-15 Nguyễn Văn Linh, Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "10-12 Đường 2/9",
+    "location": {
+      "lat": 16.058622,
+      "lng": 108.222867
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "10-12 Đường 2/9, Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "152A-154 Đường 2/9",
+    "location": {
+      "lat": 16.051097,
+      "lng": 108.222157
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "152A-154 Đường 2/9, Hoà Thuận Đông, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 204 Đường 2/9 nhà hàng Phì Lũ",
+    "location": {
+      "lat": 16.047690471944776,
+      "lng": 108.2224418056424
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Đối diện 204 Đường 2/9 nhà hàng Phì Lũ, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "264-266 Núi Thành",
+    "location": {
+      "lat": 16.043053,
+      "lng": 108.221512
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "264-266 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện trụ CS10 (đường 30/4)",
+    "location": {
+      "lat": 16.040504,
+      "lng": 108.218275
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Đối diện trụ CS10 (đường 30/4), Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Trước Cty Kiểm toán AAC",
+    "location": {
+      "lat": 16.040093,
+      "lng": 108.214675
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Trước Cty Kiểm toán AAC, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "300 Nguyễn Hữu Thọ",
+    "location": {
+      "lat": 16.03655621664241,
+      "lng": 108.20974664045576
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "300 Nguyễn Hữu Thọ, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "432-434 Nguyễn Hữu Thọ",
+    "location": {
+      "lat": 16.034725,
+      "lng": 108.209366
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "432-434 Nguyễn Hữu Thọ, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Viettronimex (460 nguyễn hữu thọ)",
+    "location": {
+      "lat": 16.030286,
+      "lng": 108.208544
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Viettronimex (460 nguyễn hữu thọ), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Nhà máy thuốc lá",
+    "location": {
+      "lat": 16.028287069458,
+      "lng": 108.20861009304
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "40-42 Lê Đại Hành",
+    "location": {
+      "lat": 16.024233,
+      "lng": 108.207312
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "40-42 Lê Đại Hành, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Vịnh dừng xe trước Ban tang lễ (Lê Đại Hành)",
+    "location": {
+      "lat": 16.02340513822311,
+      "lng": 108.20423409847069
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Vịnh dừng xe trước Ban tang lễ (Lê Đại Hành), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Dệt may Hòa Thọ đường Ông Ích Đường",
+    "location": {
+      "lat": 16.01978574217125,
+      "lng": 108.20330429567866
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Dệt may Hòa Thọ đường Ông Ích Đường, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "294 - 296 Cách Mạng Tháng 8",
+    "location": {
+      "lat": 16.016830364457,
+      "lng": 108.20402422659
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "294 - 296 Cách Mạng Tháng 8, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Cầu vượt Hòa Cầm (492 Cách mạng tháng 8)",
+    "location": {
+      "lat": 16.014007338677,
+      "lng": 108.19699818007
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Cầu vượt Hòa Cầm (492 Cách mạng tháng 8), Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đường Trường Chinh (Giao cắt với đường sắt Km 800+125) Đ/d trụ điện 2512",
+    "location": {
+      "lat": 16.004729298238,
+      "lng": 108.19089965743
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Đường Trường Chinh (Giao cắt với đường sắt Km 800+125) Đ/d trụ điện 2512, Hoà Thọ Tây, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Km 935+000 QL.1A (Vỉa hè trái) Đ/d trụ điện 25 (Ngã 3 DT605 – QL1A) (Đối diện cafe Relax)",
+    "location": {
+      "lat": 15.995883044926,
+      "lng": 108.19190658561
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Km 935+000 QL.1A (Vỉa hè trái) Đ/d trụ điện 25 (Ngã 3 DT605 – QL1A) (Đối diện cafe Relax), Hoà Châu, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Trụ điện 238",
+    "location": {
+      "lat": 15.99218724384778,
+      "lng": 108.19079426626728
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Trụ điện 238, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Trường tiểu học số 2 Hòa Tiến",
+    "location": {
+      "lat": 15.968182,
+      "lng": 108.181423
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Trường tiểu học số 2 Hòa Tiến, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "khu vực gần kiệt 12 thôn lệ sơn bắc",
+    "location": {
+      "lat": 15.962542,
+      "lng": 108.179464
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "khu vực gần kiệt 12 thôn lệ sơn bắc, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "gần nhà thuốc số 1 thôn lệ sơn bắc",
+    "location": {
+      "lat": 15.959757,
+      "lng": 108.179797
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "gần nhà thuốc số 1 thôn lệ sơn bắc, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Hòa Tiến",
+    "location": {
+      "lat": 15.952699,
+      "lng": 108.178723
+    },
+    "direction": "turn",
+    "codeRoute": "R4A",
+    "address": "Hòa Tiến, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Bến xe Đà Nẵng",
+    "location": {
+      "lat": 16.056027725183,
+      "lng": 108.17246204884
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "44-46 Đinh Liệt",
+    "location": {
+      "lat": 16.050647,
+      "lng": 108.174086
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "44-46 Đinh Liệt, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 36-38 Nguyễn Đình Tứ",
+    "location": {
+      "lat": 16.050596,
+      "lng": 108.178865
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Đối diện 36-38 Nguyễn Đình Tứ, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "396 Tôn Đản",
+    "location": {
+      "lat": 16.045555,
+      "lng": 108.182283
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "396 Tôn Đản, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Trước THCS Nguyễn Công Trứ",
+    "location": {
+      "lat": 16.04149,
+      "lng": 108.183565
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Trước THCS Nguyễn Công Trứ, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "618 Tôn Đản",
+    "location": {
+      "lat": 16.037065,
+      "lng": 108.184089
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "618 Tôn Đản, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "43-45 Lê Trọng Tấn",
+    "location": {
+      "lat": 16.036342,
+      "lng": 108.185099
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "43-45 Lê Trọng Tấn, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "860 Trường Chinh",
+    "location": {
+      "lat": 16.034242,
+      "lng": 108.187966
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "860 Trường Chinh, An Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "1016 đường Trường Chinh, Đối diện tường rào công ty chuyển giao công nghệ K&H",
+    "location": {
+      "lat": 16.02725,
+      "lng": 108.190283
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "1016 đường Trường Chinh, Đối diện tường rào công ty chuyển giao công nghệ K&H, Hoà Thuận Tây, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "1112 Trường Chinh",
+    "location": {
+      "lat": 16.02199,
+      "lng": 108.193273
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "1112 Trường Chinh, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "303-305 Lê Đại Hành",
+    "location": {
+      "lat": 16.020358,
+      "lng": 108.195604
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "303-305 Lê Đại Hành, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "203-205 Lê Đại Hành",
+    "location": {
+      "lat": 16.022211,
+      "lng": 108.201078
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "203-205 Lê Đại Hành, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "117 Lê Đại Hành (quán Đồng Dao)",
+    "location": {
+      "lat": 16.023237510907393,
+      "lng": 108.20437411911013
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "117 Lê Đại Hành (quán Đồng Dao), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 60 Lê Đại Hành  (Công ty Vận tải Tân Minh Toàn)",
+    "location": {
+      "lat": 16.024015,
+      "lng": 108.207035
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Đối diện 60 Lê Đại Hành  (Công ty Vận tải Tân Minh Toàn), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Viettronimex",
+    "location": {
+      "lat": 16.029767,
+      "lng": 108.208777
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Đối diện Viettronimex, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "515 Nguyễn Hữu Thọ",
+    "location": {
+      "lat": 16.032942078205,
+      "lng": 108.20915906492
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "515 Nguyễn Hữu Thọ, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "323 Nguyễn Hữu Thọ (gần bv Vinmec)",
+    "location": {
+      "lat": 16.037843476925,
+      "lng": 108.21037778051
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "323 Nguyễn Hữu Thọ (gần bv Vinmec), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Trụ CS20 đường 30/4",
+    "location": {
+      "lat": 16.039876,
+      "lng": 108.214715
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Trụ CS20 đường 30/4, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Trụ CS10 đường 30/4",
+    "location": {
+      "lat": 16.040285,
+      "lng": 108.218302
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Trụ CS10 đường 30/4, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "382 Núi Thành",
+    "location": {
+      "lat": 16.039300998619,
+      "lng": 108.22189042084
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "382 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "472 đường 2 Tháng 9",
+    "location": {
+      "lat": 16.035956,
+      "lng": 108.223863
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "472 đường 2 Tháng 9, Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Chùa Bà Đa",
+    "location": {
+      "lat": 16.036839600359784,
+      "lng": 108.24109144377036
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Đối diện Chùa Bà Đa, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "175 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.039839002391957,
+      "lng": 108.24229771506782
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "175 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "133 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.042963,
+      "lng": 108.240729
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "133 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Tường rào công đoàn Thiên Mẫu",
+    "location": {
+      "lat": 16.044894,
+      "lng": 108.240492
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Tường rào công đoàn Thiên Mẫu, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 31 Phan Tứ",
+    "location": {
+      "lat": 16.046369,
+      "lng": 108.246254
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Đối diện 31 Phan Tứ, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Võ Nguyên Giáp (trước NH. Cơm Việt Nam- Pullman Resort)",
+    "location": {
+      "lat": 16.0399,
+      "lng": 108.249457
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Võ Nguyên Giáp (trước NH. Cơm Việt Nam- Pullman Resort), Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Lô 2B - Võ Nguyên Giáp",
+    "location": {
+      "lat": 16.029449,
+      "lng": 108.254355
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Đối diên Crowne Plaza",
+    "location": {
+      "lat": 16.027476,
+      "lng": 108.255228
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Đối diên Crowne Plaza, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện bãi tắm Sơn Thủy",
+    "location": {
+      "lat": 16.014459,
+      "lng": 108.261393
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Đối diện bãi tắm Sơn Thủy, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Khu du lịch Non Nước",
+    "location": {
+      "lat": 16.0000353983843,
+      "lng": 108.26583313176616
+    },
+    "direction": "turn",
+    "codeRoute": "R6A",
+    "address": "Khu du lịch Non Nước, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Bầu Tràm",
+    "location": {
+      "lat": 16.09577226153891,
+      "lng": 108.13029783865443
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đường Mê Linh, đường số 5 Hoà Hiệp Nam Liên Chiểu Đà Nẵng"
+  },
+  {
+    "name": "497  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.090027180268,
+      "lng": 108.14286743966
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "497  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "421  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.08652997059,
+      "lng": 108.1443077859
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "421  Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "339  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.083094552879,
+      "lng": 108.14572533337
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "339  Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 33 Nguyễn Chánh",
+    "location": {
+      "lat": 16.08254267636839,
+      "lng": 108.14826303504623
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đối diện 33 Nguyễn Chánh, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "183 Nguyễn Chánh",
+    "location": {
+      "lat": 16.087545865569723,
+      "lng": 108.15374594298225
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "183 Nguyễn Chánh, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Nút giao Nguyễn Tất Thành và Nguyễn Chánh",
+    "location": {
+      "lat": 16.08812897828922,
+      "lng": 108.15512480679774
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Nguyễn Tất Thành Hoà Hiệp Nam Liên Chiểu Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 83 Trần Đình Tri",
+    "location": {
+      "lat": 16.083304,
+      "lng": 108.157634
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "405 Kinh Dương Vương",
+    "location": {
+      "lat": 16.0801678690993,
+      "lng": 108.16122864630319
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Kinh Dương Vương Hoà Minh Liên Chiểu Đà Nẵng"
+  },
+  {
+    "name": "265 Kinh Dương Vương",
+    "location": {
+      "lat": 16.07646724609721,
+      "lng": 108.16680321421927
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "265 Kinh Dương Vương, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 200 Kinh Dương Vương",
+    "location": {
+      "lat": 16.074911071948435,
+      "lng": 108.16916043879326
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đối diện 200 Kinh Dương Vương, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "35 Kinh Dương Vương",
+    "location": {
+      "lat": 16.072357398794637,
+      "lng": 108.17308169714562
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "35 Kinh Dương Vương, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "59 Lý Thái Tông",
+    "location": {
+      "lat": 16.074432,
+      "lng": 108.175332
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "59 Lý Thái Tông, Thanh Kê Tây, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Bệnh viện Da Liễu (91 Dũng Sĩ Thanh Khê)",
+    "location": {
+      "lat": 16.074060493058937,
+      "lng": 108.17681172183461
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Bệnh viện Da Liễu (91 Dũng Sĩ Thanh Khê), Thanh Kê Tây, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Cao ĐẳngThương Mại, 68 Dũng Sĩ Thanh Khê",
+    "location": {
+      "lat": 16.071852654962612,
+      "lng": 108.1788514998205
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Cao ĐẳngThương Mại, 68 Dũng Sĩ Thanh Khê, Thanh Kê Tây, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Tường rào đại học TDTT (Đối diện trụ P8PL2 44 DSTK)",
+    "location": {
+      "lat": 16.070169590041,
+      "lng": 108.18046473619
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Tường rào đại học TDTT (Đối diện trụ P8PL2 44 DSTK), Thanh Kê Tây, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Trường THPT Thái Phiên (735 Trần Cao Vân)",
+    "location": {
+      "lat": 16.068432,
+      "lng": 108.183324
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Trường THPT Thái Phiên (735 Trần Cao Vân), Thanh Khê Đông, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "583 Trần Cao Vân",
+    "location": {
+      "lat": 16.071545,
+      "lng": 108.187004
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "583 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "UBND phường Xuân Hà, 493 Trần Cao Vân",
+    "location": {
+      "lat": 16.071208799056,
+      "lng": 108.19199962861
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "UBND phường Xuân Hà, 493 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "301 Trần Cao Vân",
+    "location": {
+      "lat": 16.071041,
+      "lng": 108.198565
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "301 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "189 Trần Cao Vân",
+    "location": {
+      "lat": 16.071095728263913,
+      "lng": 108.20201046976541
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "189 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 160 Trần Cao Vân",
+    "location": {
+      "lat": 16.072406626452,
+      "lng": 108.20828841505
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đối diện 160 Trần Cao Vân, Tam Thuận, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 206 Quang Trung",
+    "location": {
+      "lat": 16.073358,
+      "lng": 108.213114
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đối diện 206 Quang Trung, Thanh Bình, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 120 Quang Trung gần Bệnh viện Đa Khoa",
+    "location": {
+      "lat": 16.074067751203742,
+      "lng": 108.21662663533147
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đối diện 120 Quang Trung gần Bệnh viện Đa Khoa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "126 Lê Lợi",
+    "location": {
+      "lat": 16.074208198823,
+      "lng": 108.22006063041
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Hải Châu 1, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "154 Lê Lợi",
+    "location": {
+      "lat": 16.071991898830234,
+      "lng": 108.22033975826064
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "154 Lê Lợi, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "7 Lê Duẩn",
+    "location": {
+      "lat": 16.071686,
+      "lng": 108.223568
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "7 Lê Duẩn, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Bùng binh cầu sông Hàn",
+    "location": {
+      "lat": 16.072472,
+      "lng": 108.232001
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đối diện Bùng binh cầu sông Hàn, An Hải Bắc, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "124 Phạm Văn Đồng ( Vian Hotel)",
+    "location": {
+      "lat": 16.07101,
+      "lng": 108.2354
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "124 Phạm Văn Đồng ( Vian Hotel), An Hải Bắc, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đ/d sân bóng đá Harmony",
+    "location": {
+      "lat": 16.070028,
+      "lng": 108.240451
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Đ/d sân bóng đá Harmony, An Hải Bắc, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Công viên Biển Đông",
+    "location": {
+      "lat": 16.073360839352,
+      "lng": 108.24546634199
+    },
+    "direction": "turn",
+    "codeRoute": "TMF",
+    "address": "Công viên Biển Đông, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Bến xe Phía Nam Huế",
+    "location": {
+      "lat": 16.450211,
+      "lng": 107.605643
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "Bến xe Phía Nam Huế, An Đông, Huế, Thừa Thiên Huế"
+  },
+  {
+    "name": "957 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.112619070434974,
+      "lng": 108.1286021590899
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "957 Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "817  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.104981893327,
+      "lng": 108.13294784602
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "817  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "636  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.105172587227,
+      "lng": 108.13287810859
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "636  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "497  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.090027180268,
+      "lng": 108.14286743966
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "497  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Bệnh viện tâm thần",
+    "location": {
+      "lat": 16.080103655117,
+      "lng": 108.14694439737
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "Bệnh viện tâm thần, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "27 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.072716,
+      "lng": 108.150064
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "27 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "459 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.062543207239,
+      "lng": 108.15922167133
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "459 Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "341 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.057249137006,
+      "lng": 108.16665917845
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "341 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Bến xe Đà Nẵng",
+    "location": {
+      "lat": 16.056027725183,
+      "lng": 108.17246204884
+    },
+    "direction": "return",
+    "codeRoute": "LK01",
+    "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Thọ Quang",
+    "location": {
+      "lat": 16.099556,
+      "lng": 108.254962
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Thọ Quang, Thọ Quang, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện bãi tắm Mân Thái",
+    "location": {
+      "lat": 16.08961,
+      "lng": 108.249616
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Đối diện bãi tắm Mân Thái, Mân Thái, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 75 Nguyễn Sáng",
+    "location": {
+      "lat": 16.086678,
+      "lng": 108.246502
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Đối diện 75 Nguyễn Sáng, Mân Thái, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Motel Hương Việt",
+    "location": {
+      "lat": 16.082575,
+      "lng": 108.244489
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Đối diện Motel Hương Việt, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Trường Chính trị",
+    "location": {
+      "lat": 16.078757,
+      "lng": 108.242946
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Trường Chính trị, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "148 - 150 Hồ Nghinh",
+    "location": {
+      "lat": 16.072639,
+      "lng": 108.242978
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "148 - 150 Hồ Nghinh, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Golden Light Hotel",
+    "location": {
+      "lat": 16.068453,
+      "lng": 108.243172
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Đối diện Golden Light Hotel, An Hải Bắc, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Số 10 Võ Văn Kiệt",
+    "location": {
+      "lat": 16.06325,
+      "lng": 108.242617
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Số 10 Võ Văn Kiệt, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Quán nhậu Bé Hằng",
+    "location": {
+      "lat": 16.06237,
+      "lng": 108.23918
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Quán nhậu Bé Hằng, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Cầu Rồng (số lẽ đường Võ Văn Kiệt)",
+    "location": {
+      "lat": 16.061487468687,
+      "lng": 108.23339818781
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Cầu Rồng (số lẽ đường Võ Văn Kiệt), An Hải Tây, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 31 Nguyễn Văn Linh (tam giác cây xanh)",
+    "location": {
+      "lat": 16.06107,
+      "lng": 108.221064
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Đối diện 31 Nguyễn Văn Linh (tam giác cây xanh), Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Chùa Phước Ninh",
+    "location": {
+      "lat": 16.060897218045,
+      "lng": 108.2178681976
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Chùa Phước Ninh, Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "100 Nguyễn Văn Linh",
+    "location": {
+      "lat": 16.060557,
+      "lng": 108.214849
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "100 Nguyễn Văn Linh, Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "153-155 Nguyễn Hoàng",
+    "location": {
+      "lat": 16.061133,
+      "lng": 108.213734
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "153-155 Nguyễn Hoàng, Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "295-297 Ông Ích Khiêm",
+    "location": {
+      "lat": 16.066082,
+      "lng": 108.214413
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "295-297 Ông Ích Khiêm, , Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "248 - 250 Ông Ích Khiêm (chợ Cồn)",
+    "location": {
+      "lat": 16.068135,
+      "lng": 108.214005
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "248 - 250 Ông Ích Khiêm (chợ Cồn), Hải Châu II, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "196 Hải Phòng",
+    "location": {
+      "lat": 16.071344,
+      "lng": 108.211268
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "196 Hải Phòng, Tân Chính, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "212 Hải Phòng",
+    "location": {
+      "lat": 16.070816383774,
+      "lng": 108.2088704544
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "212 Hải Phòng, Tân Chính, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "352 Hải Phòng",
+    "location": {
+      "lat": 16.067827,
+      "lng": 108.204954
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "352 Hải Phòng, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "78-80 Võ Văn Tần",
+    "location": {
+      "lat": 16.06701,
+      "lng": 108.202999
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "78-80 Võ Văn Tần, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "96-98 Thái Thị Bôi",
+    "location": {
+      "lat": 16.068346,
+      "lng": 108.199095
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "96-98 Thái Thị Bôi, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "304-306 Thái Thị Bôi",
+    "location": {
+      "lat": 16.068108,
+      "lng": 108.192868
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "304-306 Thái Thị Bôi, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Trường tiểu học Huynh Ngọc Huệ",
+    "location": {
+      "lat": 16.063865,
+      "lng": 108.191958
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Trường tiểu học Huynh Ngọc Huệ, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "238-240 Hà Huy Tập",
+    "location": {
+      "lat": 16.060729,
+      "lng": 108.190041
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "238-240 Hà Huy Tập, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "145 Huỳnh Ngọc Huệ",
+    "location": {
+      "lat": 16.059489,
+      "lng": 108.185921
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "145 Huỳnh Ngọc Huệ, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "37-39 Huỳnh Ngọc Huệ",
+    "location": {
+      "lat": 16.064102,
+      "lng": 108.183917
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "37-39 Huỳnh Ngọc Huệ, Thanh Khê Đông, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "128 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.059352982593,
+      "lng": 108.17484339443
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "128 Tôn Đức Thắng, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Bến xe Đà Nẵng",
+    "location": {
+      "lat": 16.056027725183,
+      "lng": 108.17246204884
+    },
+    "direction": "return",
+    "codeRoute": "R15",
+    "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Bến xe buýt Đại học Việt Hàn",
+    "location": {
+      "lat": 15.974000716308737,
+      "lng": 108.25459415115165
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Bến xe buýt Đại học Việt Hàn, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Tổ 24 Đông Trà, Trần Đại Nghĩa",
+    "location": {
+      "lat": 15.977812,
+      "lng": 108.254979
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Tổ 24 Đông Trà, Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "E144 Trần Đại Nghĩa",
+    "location": {
+      "lat": 15.982206,
+      "lng": 108.255977
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "E144 Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Sân tập lái ô tô đường Trần Đại Nghĩa",
+    "location": {
+      "lat": 15.989078,
+      "lng": 108.257485
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Sân tập lái ô tô đường Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Công ty Hưng Thịnh",
+    "location": {
+      "lat": 15.993976,
+      "lng": 108.258607
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Đối diện Công ty Hưng Thịnh, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "527 Lê Văn Hiến",
+    "location": {
+      "lat": 16.001698,
+      "lng": 108.259734
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "527 Lê Văn Hiến, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "509 Lê Văn Hiến",
+    "location": {
+      "lat": 16.002392,
+      "lng": 108.259765
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "509 Lê Văn Hiến, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "415 Lê Văn Hiến",
+    "location": {
+      "lat": 16.006403172473,
+      "lng": 108.25918400841
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "415 Lê Văn Hiến, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "307 Lê Văn Hiến",
+    "location": {
+      "lat": 16.01029927935,
+      "lng": 108.25725107256
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "307 Lê Văn Hiến, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "127 Lê Văn Hiến",
+    "location": {
+      "lat": 16.022953,
+      "lng": 108.251029
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "127 Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Doanh trại quân đội đường Lê Văn Hiến",
+    "location": {
+      "lat": 16.029242129737,
+      "lng": 108.24775238006
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Doanh trại quân đội đường Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "61 Lê Văn Hiến",
+    "location": {
+      "lat": 16.033707732598,
+      "lng": 108.24551546538
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "61 Lê Văn Hiến, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "175 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.039839002391957,
+      "lng": 108.24229771506782
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "175 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "133 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.042963,
+      "lng": 108.240729
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "133 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Trường trung cấp nghề số 5",
+    "location": {
+      "lat": 16.044994654234245,
+      "lng": 108.23970610171563
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Trường trung cấp nghề số 5, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Đại học Kinh Tế",
+    "location": {
+      "lat": 16.047940221328645,
+      "lng": 108.23857013445001
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Đại học Kinh Tế, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "29 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.05174725390104,
+      "lng": 108.23744942544585
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "29 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "1093 Ngô Quyền",
+    "location": {
+      "lat": 16.05652299144272,
+      "lng": 108.23594710196454
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "1093 Ngô Quyền, An Hải Đông, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "1041 Ngô Quyền",
+    "location": {
+      "lat": 16.059173239824332,
+      "lng": 108.23516804387748
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "1041 Ngô Quyền, An Hải Đông, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Cầu Rồng (số lẽ đường Võ Văn Kiệt)",
+    "location": {
+      "lat": 16.061487468687,
+      "lng": 108.23339818781
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Cầu Rồng (số lẽ đường Võ Văn Kiệt), An Hải Tây, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Bến chợ Hàn",
+    "location": {
+      "lat": 16.068166885431,
+      "lng": 108.2250575917
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Hải Châu 1, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 59 Hùng Vương",
+    "location": {
+      "lat": 16.068537515821,
+      "lng": 108.21999007574
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Đối diện 59 Hùng Vương, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "192 Hùng Vương",
+    "location": {
+      "lat": 16.068063,
+      "lng": 108.217519
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "192 Hùng Vương, Hải Châu II, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Chợ Cồn",
+    "location": {
+      "lat": 16.06737,
+      "lng": 108.214679
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Chợ Cồn, Hải Châu II, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "10 Lý Thái Tổ",
+    "location": {
+      "lat": 16.066515,
+      "lng": 108.209926
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "10 Lý Thái Tổ, Thạc Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "130 Lý Thái Tổ",
+    "location": {
+      "lat": 16.066166,
+      "lng": 108.207468
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "130 Lý Thái Tổ, Thạc Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Siêu thị Nguyễn Kim",
+    "location": {
+      "lat": 16.066062,
+      "lng": 108.203904
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "Điện Biên Phủ Hoà Khê Thanh Khê Đà Nẵng"
+  },
+  {
+    "name": "130 Điện Biên Phủ",
+    "location": {
+      "lat": 16.065776,
+      "lng": 108.199072
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "130 Điện Biên Phủ, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "336 Dien Bien Phu",
+    "location": {
+      "lat": 16.066007,
+      "lng": 108.192896
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "336 Dien Bien Phu, Chính Gián, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "416 Điện Biên Phủ",
+    "location": {
+      "lat": 16.065971988923,
+      "lng": 108.18900009361
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "416 Điện Biên Phủ, Hoà Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "570 Điện Biên Phủ",
+    "location": {
+      "lat": 16.065587999794,
+      "lng": 108.18419496978
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "570 Điện Biên Phủ, Thanh Khê Đông, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "128 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.059352982593,
+      "lng": 108.17484339443
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "128 Tôn Đức Thắng, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "210 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.05691,
+      "lng": 108.171399
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "210 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "294 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.056489,
+      "lng": 108.168252
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "294 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "422 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.060254563722,
+      "lng": 108.16297990626
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "422 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "552 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.062856804194,
+      "lng": 108.15895372741
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "552 Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "640 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.064670667946,
+      "lng": 108.1564643866
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "640 Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "758 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.06687696889,
+      "lng": 108.15308480324
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "758 Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "806 Tôn Đức Thắng",
+    "location": {
+      "lat": 16.068301681883,
+      "lng": 108.15200144164
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "806 Tôn Đức Thắng, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "50 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.07276,
+      "lng": 108.150242
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "50 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "138 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.076896,
+      "lng": 108.148525
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "138 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "234  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.080574984909,
+      "lng": 108.14691329114
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "234  Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "290 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.082977,
+      "lng": 108.146028
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "290 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "396 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.086538,
+      "lng": 108.144553
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "396 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "438  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.090285872868,
+      "lng": 108.14291679971
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "438  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "546 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.100214,
+      "lng": 108.135404
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "546 Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "636  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.105172587227,
+      "lng": 108.13287810859
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "636  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "788 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.110718,
+      "lng": 108.129702
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "788 Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "922  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.114939243966,
+      "lng": 108.12682543154
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "922  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "52 Nguyễn Văn Cừ",
+    "location": {
+      "lat": 16.125747,
+      "lng": 108.119946
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "52 Nguyễn Văn Cừ, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "274 Nguyễn Văn Cừ",
+    "location": {
+      "lat": 16.135440886754,
+      "lng": 108.11984065246
+    },
+    "direction": "return",
+    "codeRoute": "R16",
+    "address": "274 Nguyễn Văn Cừ, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Trạm xe buýt trung tâm hành chính huyện Hòa Vang",
+    "location": {
+      "lat": 15.98748954273455,
+      "lng": 108.14082051183311
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Trạm xe buýt trung tâm hành chính huyện Hòa Vang, Hoà Phong, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện chợ Túy Loan",
+    "location": {
+      "lat": 15.990794698650049,
+      "lng": 108.14076038136375
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Quảng Xương Hoà Phong Hoà Vang Đà Nẵng"
+  },
+  {
+    "name": "Gần chợ Túy Loan",
+    "location": {
+      "lat": 15.991669059065288,
+      "lng": 108.13802110807205
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Gần chợ Túy Loan, Hoà Phong, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "DD Trường TH Lâm Quang Thự",
+    "location": {
+      "lat": 15.99701308570316,
+      "lng": 108.13729529154915
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "DD Trường TH Lâm Quang Thự, Hoà Phong, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Mỳ Quảng Bà Tĩnh đường Quảng Xương",
+    "location": {
+      "lat": 15.9997645,
+      "lng": 108.1436732
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Mỳ Quảng Bà Tĩnh đường Quảng Xương, Hoà Phong, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện bệnh viện Hòa Vang",
+    "location": {
+      "lat": 16.008672,
+      "lng": 108.151871
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Đối diện bệnh viện Hòa Vang, Hoà Nhơn, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 399 Trường Sơn",
+    "location": {
+      "lat": 16.010554,
+      "lng": 108.163509
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Đối diện 399 Trường Sơn, Hoà Thọ Tây, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Trường Quân Sự QK5",
+    "location": {
+      "lat": 16.011775959914,
+      "lng": 108.16892215721
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Trường Quân Sự QK5, Hoà Thọ Tây, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "11 Trường Sơn",
+    "location": {
+      "lat": 16.012034,
+      "lng": 108.187848
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "11 Trường Sơn, Hoà Thọ Tây, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Phòng VHTT quận Cẩm Lệ",
+    "location": {
+      "lat": 16.013811401159,
+      "lng": 108.19800534956
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Phòng VHTT quận Cẩm Lệ, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Bảo hiểm xã hội quận Cẩm Lệ",
+    "location": {
+      "lat": 16.016665366789,
+      "lng": 108.20397728792
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Bảo hiểm xã hội quận Cẩm Lệ, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "151 Cách mạng tháng 8",
+    "location": {
+      "lat": 16.019373,
+      "lng": 108.209757
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "151 Cách mạng tháng 8, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "ĐD Bệnh viện Tâm Trí",
+    "location": {
+      "lat": 16.022759365644,
+      "lng": 108.21473948229
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "ĐD Bệnh viện Tâm Trí, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Siêu thị Mega",
+    "location": {
+      "lat": 16.025546687947,
+      "lng": 108.21984925977
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Siêu thị Mega, Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "567 Núi Thành",
+    "location": {
+      "lat": 16.032555395936,
+      "lng": 108.22286515299
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "567 Núi Thành, Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Trạm y tế Hòa Cường Nam (499 Núi Thành)",
+    "location": {
+      "lat": 16.034046,
+      "lng": 108.222636
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Trạm y tế Hòa Cường Nam (499 Núi Thành), Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "điểm dừng ở Núi Thành",
+    "location": {
+      "lat": 16.039242465401315,
+      "lng": 108.22197296110312
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Núi Thành Hoà Thuận Đông Hải Châu Đà Nẵng"
+  },
+  {
+    "name": "Quảng trường 2/9",
+    "location": {
+      "lat": 16.040495,
+      "lng": 108.221868
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Quảng trường 2/9, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "255-257 Núi Thành",
+    "location": {
+      "lat": 16.043969,
+      "lng": 108.221441
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "255-257 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Trường THCS Tây Sơn",
+    "location": {
+      "lat": 16.047735810182,
+      "lng": 108.22105515495
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Trường THCS Tây Sơn, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "21 Núi Thành",
+    "location": {
+      "lat": 16.053088057096,
+      "lng": 108.22040676937
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "21 Núi Thành, Hoà Thuận Đông, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 22 đường 2/9",
+    "location": {
+      "lat": 16.058541,
+      "lng": 108.223054
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Đối diện 22 đường 2/9, Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Đài truyền hình Đà Nẵng - đường Bạch Đằng",
+    "location": {
+      "lat": 16.062007588483,
+      "lng": 108.22411473924
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Đối diện Đài truyền hình Đà Nẵng - đường Bạch Đằng, Phước Ninh, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Bến chợ Hàn",
+    "location": {
+      "lat": 16.068166885431,
+      "lng": 108.2250575917
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Hải Châu 1, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 59 Hùng Vương",
+    "location": {
+      "lat": 16.068537515821,
+      "lng": 108.21999007574
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Đối diện 59 Hùng Vương, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "102 Nguyễn Thị Minh Khai",
+    "location": {
+      "lat": 16.071838192241,
+      "lng": 108.21853308684
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "102 Nguyễn Thị Minh Khai, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "51 Nguyễn Thị Minh Khai",
+    "location": {
+      "lat": 16.072990275884,
+      "lng": 108.21838020092
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "51 Nguyễn Thị Minh Khai, Hải Châu I, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 04 Nguyễn Thị Minh Khai",
+    "location": {
+      "lat": 16.076387,
+      "lng": 108.217736
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Đối diện 04 Nguyễn Thị Minh Khai, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "07 Lý Tự Trọng",
+    "location": {
+      "lat": 16.07746,
+      "lng": 108.221536
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "07 Lý Tự Trọng, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 20 Bạch Đằng",
+    "location": {
+      "lat": 16.080246,
+      "lng": 108.223837
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Đối diện 20 Bạch Đằng, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Cảng Sông Hàn",
+    "location": {
+      "lat": 16.082542006424,
+      "lng": 108.22358683192
+    },
+    "direction": "return",
+    "codeRoute": "R17A",
+    "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Hòa Tiến",
+    "location": {
+      "lat": 15.952699,
+      "lng": 108.178723
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Hòa Tiến, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "đối diện nhà thuốc số 1 thôn Lệ Sơn Bắc",
+    "location": {
+      "lat": 15.959742,
+      "lng": 108.179896
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "đối diện nhà thuốc số 1 thôn Lệ Sơn Bắc, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "đối diện khu vực gần kiệt 12 thôn Lệ Sơn Bắc Hòa Tiến",
+    "location": {
+      "lat": 15.962536,
+      "lng": 108.179525
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "đối diện khu vực gần kiệt 12 thôn Lệ Sơn Bắc Hòa Tiến, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "đối diện trường tiểu học số 2 Hòa Tiến",
+    "location": {
+      "lat": 15.968569,
+      "lng": 108.181598
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "đối diện trường tiểu học số 2 Hòa Tiến, Hoà Tiến, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Trụ điện CS 239 (DDT605)) Hòa Tiến (Trụ điện CS 44 (239))",
+    "location": {
+      "lat": 15.980612,
+      "lng": 108.186394
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Trụ điện CS 239 (DDT605)) Hòa Tiến (Trụ điện CS 44 (239)), Hoà Châu, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "Km935+000 QL.1A (Vỉa hè phải) Trụ điện số 25 QL1A ( Café Relax)",
+    "location": {
+      "lat": 15.996106588405,
+      "lng": 108.19201611364
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Km935+000 QL.1A (Vỉa hè phải) Trụ điện số 25 QL1A ( Café Relax), Hoà Châu, Hoà Vang, Đà Nẵng"
+  },
+  {
+    "name": "QL 1A (Trước TT Giáo dục thường xuyên quận Cẩm Lệ) Trụ điện 2511",
+    "location": {
+      "lat": 16.004857333733,
+      "lng": 108.19112159692
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "QL 1A (Trước TT Giáo dục thường xuyên quận Cẩm Lệ) Trụ điện 2511, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "252 Trường Chinh",
+    "location": {
+      "lat": 16.009699548864,
+      "lng": 108.19300124875
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "252 Trường Chinh, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Phòng VHTT quận Cẩm Lệ",
+    "location": {
+      "lat": 16.013811401159,
+      "lng": 108.19800534956
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Phòng VHTT quận Cẩm Lệ, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Bảo hiểm xã hội quận Cẩm Lệ",
+    "location": {
+      "lat": 16.016665366789,
+      "lng": 108.20397728792
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Bảo hiểm xã hội quận Cẩm Lệ, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "THPT Hòa Vang đường Ông Ích Đường",
+    "location": {
+      "lat": 16.020125,
+      "lng": 108.20339
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "THPT Hòa Vang đường Ông Ích Đường, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "117 Lê Đại Hành (quán Đồng Dao)",
+    "location": {
+      "lat": 16.023237510907393,
+      "lng": 108.20437411911013
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "117 Lê Đại Hành (quán Đồng Dao), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 60 Lê Đại Hành  (Công ty Vận tải Tân Minh Toàn)",
+    "location": {
+      "lat": 16.024015,
+      "lng": 108.207035
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Đối diện 60 Lê Đại Hành  (Công ty Vận tải Tân Minh Toàn), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện Viettronimex",
+    "location": {
+      "lat": 16.029767,
+      "lng": 108.208777
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Đối diện Viettronimex, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "515 Nguyễn Hữu Thọ",
+    "location": {
+      "lat": 16.032942078205,
+      "lng": 108.20915906492
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "515 Nguyễn Hữu Thọ, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "323 Nguyễn Hữu Thọ (gần bv Vinmec)",
+    "location": {
+      "lat": 16.037843476925,
+      "lng": 108.21037778051
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "323 Nguyễn Hữu Thọ (gần bv Vinmec), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Trụ CS20 đường 30/4",
+    "location": {
+      "lat": 16.039876,
+      "lng": 108.214715
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Trụ CS20 đường 30/4, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Trụ CS10 đường 30/4",
+    "location": {
+      "lat": 16.040285,
+      "lng": 108.218302
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Trụ CS10 đường 30/4, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "255-257 Núi Thành",
+    "location": {
+      "lat": 16.043969,
+      "lng": 108.221441
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "255-257 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Nhà hàng Phì Lũ đường 2/9",
+    "location": {
+      "lat": 16.047693,
+      "lng": 108.222639
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Nhà hàng Phì Lũ đường 2/9, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 154 đường 2 tháng 9",
+    "location": {
+      "lat": 16.0509,
+      "lng": 108.222375
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Đối diện 154 đường 2 tháng 9 , Hoà Thuận Đông, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 22 đường 2/9",
+    "location": {
+      "lat": 16.058541,
+      "lng": 108.223054
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Đối diện 22 đường 2/9, Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 31 Nguyễn Văn Linh (tam giác cây xanh)",
+    "location": {
+      "lat": 16.06107,
+      "lng": 108.221064
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Đối diện 31 Nguyễn Văn Linh (tam giác cây xanh), Bình Hiên, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Chùa Phước Ninh",
+    "location": {
+      "lat": 16.060897218045,
+      "lng": 108.2178681976
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Chùa Phước Ninh, Nam Dương, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "415 - 417 Ông Ích Khiêm",
+    "location": {
+      "lat": 16.06289933281,
+      "lng": 108.21583801619
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "415 - 417 Ông Ích Khiêm, Hải Châu II, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "295-297 Ông Ích Khiêm",
+    "location": {
+      "lat": 16.066082,
+      "lng": 108.214413
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "295-297 Ông Ích Khiêm, , Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "248 - 250 Ông Ích Khiêm (chợ Cồn)",
+    "location": {
+      "lat": 16.068135,
+      "lng": 108.214005
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "248 - 250 Ông Ích Khiêm (chợ Cồn), Hải Châu II, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "301 Đống Đa",
+    "location": {
+      "lat": 16.07299,
+      "lng": 108.213573
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "301 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "251-253 Đống Đa",
+    "location": {
+      "lat": 16.075004,
+      "lng": 108.214916
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "251-253 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "163 - 165 Đống Đa",
+    "location": {
+      "lat": 16.077546,
+      "lng": 108.216613
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "163 - 165 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "75 Đống Đa",
+    "location": {
+      "lat": 16.080205,
+      "lng": 108.218407
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "75 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 22 Đống Đa",
+    "location": {
+      "lat": 16.082375,
+      "lng": 108.220946
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Đối diện 22 Đống Đa, Thuận Phước, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Cảng Sông Hàn",
+    "location": {
+      "lat": 16.082542006424,
+      "lng": 108.22358683192
+    },
+    "direction": "return",
+    "codeRoute": "R4A",
+    "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Khu du lịch Non Nước",
+    "location": {
+      "lat": 16.0000353983843,
+      "lng": 108.26583313176616
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Khu du lịch Non Nước, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Bãi tắm Sơn Thủy",
+    "location": {
+      "lat": 16.0152,
+      "lng": 108.261115
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Bãi tắm Sơn Thủy, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Crowne Plaza",
+    "location": {
+      "lat": 16.027526,
+      "lng": 108.255299
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Crowne Plaza, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Fusion maia Resrot",
+    "location": {
+      "lat": 16.030778,
+      "lng": 108.253857
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Fusion maia Resrot, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Pullman Resrot",
+    "location": {
+      "lat": 16.04013,
+      "lng": 108.249344
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Pullman Resrot, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "121 Phan Tứ",
+    "location": {
+      "lat": 16.046835,
+      "lng": 108.247518
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "121 Phan Tứ, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Trường TC nghề số 5 (PT)",
+    "location": {
+      "lat": 16.044958,
+      "lng": 108.240463
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Trường TC nghề số 5 (PT), Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "310A Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.04274448775682,
+      "lng": 108.24069782197472
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "310A Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "370 Ngũ Hành Sơn",
+    "location": {
+      "lat": 16.039723,
+      "lng": 108.242166
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "370 Ngũ Hành Sơn, Mỹ An, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Chùa Bà Đa",
+    "location": {
+      "lat": 16.037078,
+      "lng": 108.241247
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Chùa Bà Đa, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "name": "Siêu thị Lotte, Đường dẫn cầu Tuyên Sơn cách 50m Trần Đăng Ninh",
+    "location": {
+      "lat": 16.033822,
+      "lng": 108.227773
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Siêu thị Lotte, Đường dẫn cầu Tuyên Sơn cách 50m Trần Đăng Ninh, Hoà Cường Nam, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Khu vui chơi Helio",
+    "location": {
+      "lat": 16.035869266505,
+      "lng": 108.22409024944
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Khu vui chơi Helio, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Quảng trường 2/9",
+    "location": {
+      "lat": 16.040495,
+      "lng": 108.221868
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Quảng trường 2/9, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện trụ CS10 (đường 30/4)",
+    "location": {
+      "lat": 16.040504,
+      "lng": 108.218275
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Đối diện trụ CS10 (đường 30/4), Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Trước Cty Kiểm toán AAC",
+    "location": {
+      "lat": 16.040093,
+      "lng": 108.214675
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Trước Cty Kiểm toán AAC, Hoà Cường Bắc, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "300 Nguyễn Hữu Thọ",
+    "location": {
+      "lat": 16.03655621664241,
+      "lng": 108.20974664045576
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "300 Nguyễn Hữu Thọ, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "432-434 Nguyễn Hữu Thọ",
+    "location": {
+      "lat": 16.034725,
+      "lng": 108.209366
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "432-434 Nguyễn Hữu Thọ, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Viettronimex (460 nguyễn hữu thọ)",
+    "location": {
+      "lat": 16.030286,
+      "lng": 108.208544
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Viettronimex (460 nguyễn hữu thọ), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "40-42 Lê Đại Hành",
+    "location": {
+      "lat": 16.024233,
+      "lng": 108.207312
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "40-42 Lê Đại Hành, Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Vịnh dừng xe trước Ban tang lễ (Lê Đại Hành)",
+    "location": {
+      "lat": 16.02340513822311,
+      "lng": 108.20423409847069
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Vịnh dừng xe trước Ban tang lễ (Lê Đại Hành), Khuê Trung, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "172-174 Lê Đại Hành",
+    "location": {
+      "lat": 16.022388,
+      "lng": 108.201111
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "172-174 Lê Đại Hành, Hoà Thọ Đông, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "328-330 Lê Đại Hành",
+    "location": {
+      "lat": 16.020531,
+      "lng": 108.195577
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "328-330 Lê Đại Hành, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "591-593 Trường Chinh",
+    "location": {
+      "lat": 16.022067,
+      "lng": 108.193369
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "591-593 Trường Chinh, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Công ty CN K&H",
+    "location": {
+      "lat": 16.027301,
+      "lng": 108.190448
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Công ty CN K&H, Hoà Thuận Tây, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "517-519 Trường Chinh",
+    "location": {
+      "lat": 16.033935,
+      "lng": 108.188234
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "517-519 Trường Chinh, An Khê, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "64-66 Lê Trọng Tấn",
+    "location": {
+      "lat": 16.036587,
+      "lng": 108.185914
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "64-66 Lê Trọng Tấn, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 618 Tôn Đản",
+    "location": {
+      "lat": 16.037075,
+      "lng": 108.184108
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Đối diện 618 Tôn Đản, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "489 Tôn Đản",
+    "location": {
+      "lat": 16.041461,
+      "lng": 108.183604
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "489 Tôn Đản, Hoà Phát, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "413-415 Tôn Đản",
+    "location": {
+      "lat": 16.044484,
+      "lng": 108.182658
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "413-415 Tôn Đản, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "14-16 Nguyễn Đình Tứ",
+    "location": {
+      "lat": 16.050789,
+      "lng": 108.179405
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "14-16 Nguyễn Đình Tứ, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 44-46 Đinh Liệt",
+    "location": {
+      "lat": 16.050687,
+      "lng": 108.174234
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Đối diện 44-46 Đinh Liệt, Hoà An, Cẩm Lệ, Đà Nẵng"
+  },
+  {
+    "name": "Bến xe Đà Nẵng",
+    "location": {
+      "lat": 16.056027725183,
+      "lng": 108.17246204884
+    },
+    "direction": "return",
+    "codeRoute": "R6A",
+    "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Công viên Biển Đông",
+    "location": {
+      "lat": 16.073360839352,
+      "lng": 108.24546634199
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Công viên Biển Đông, Phước Mỹ, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Lô A5 Phạm Văn Đồng",
+    "location": {
+      "lat": 16.070271,
+      "lng": 108.240793
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Lô A5 Phạm Văn Đồng, An Hải Bắc, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Hadana Boutique Hotel (Đôi diện 124 Phạm Văn Đồng",
+    "location": {
+      "lat": 16.071103,
+      "lng": 108.235781
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Hadana Boutique Hotel (Đôi diện 124 Phạm Văn Đồng, An Hải Bắc, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "Bùng binh cầu sông Hàn",
+    "location": {
+      "lat": 16.072681,
+      "lng": 108.232078
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Bùng binh cầu sông Hàn, An Hải Bắc, Sơn Trà, Đà Nẵng"
+  },
+  {
+    "name": "12 Lê Duẩn",
+    "location": {
+      "lat": 16.071684492812523,
+      "lng": 108.22249792061763
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Lê Duẩn Thạc Gián Thanh Khê Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 76 Nguyễn Chí Thanh",
+    "location": {
+      "lat": 16.07335,
+      "lng": 108.220905
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Hải Châu 1, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "136 Quang Trung Trường THCS Nguyễn Huệ",
+    "location": {
+      "lat": 16.07396613906741,
+      "lng": 108.21573418624666
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "136 Quang Trung Trường THCS Nguyễn Huệ, Thạch Thang, Hải Châu, Đà Nẵng"
+  },
+  {
+    "name": "Trường THCS Hoàng Diệu",
+    "location": {
+      "lat": 16.072381917735612,
+      "lng": 108.20794154843969
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Trường THCS Hoàng Diệu, Tam Thuận, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "312 Trần Cao Vân",
+    "location": {
+      "lat": 16.071233741673197,
+      "lng": 108.2022041309101
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "312 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "398 Trần Cao Vân",
+    "location": {
+      "lat": 16.071147084485304,
+      "lng": 108.19902224915012
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "398 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "574 Trần Cao Vân",
+    "location": {
+      "lat": 16.071243,
+      "lng": 108.194124
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "574 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "716 Trần Cao Vân",
+    "location": {
+      "lat": 16.071533667853757,
+      "lng": 108.18750632342244
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "716 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "856 Trần Cao Vân (UBND Phường Thanh Khê)",
+    "location": {
+      "lat": 16.068298,
+      "lng": 108.18304
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "856 Trần Cao Vân (UBND Phường Thanh Khê), Thanh Khê Đông, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "Tường rào đại học TDTT Trụ 13PL2 (43 Dũng Sĩ Thanh Khê)",
+    "location": {
+      "lat": 16.070373074750478,
+      "lng": 108.18040134782973
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Tường rào đại học TDTT Trụ 13PL2 (43 Dũng Sĩ Thanh Khê), Thanh Kê Tây, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "156 Dũng Sĩ Thanh Khê",
+    "location": {
+      "lat": 16.072298,
+      "lng": 108.178582
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "156 Dũng Sĩ Thanh Khê, Thanh Kê Tây, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "56-58 Lý Thái Tông",
+    "location": {
+      "lat": 16.074586007673332,
+      "lng": 108.17531191230478
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "56-58 Lý Thái Tông, Thanh Kê Tây, Thanh Khê, Đà Nẵng"
+  },
+  {
+    "name": "26 Kinh Dương Vương",
+    "location": {
+      "lat": 16.072511,
+      "lng": 108.173003
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "200 Kinh Dương Vương",
+    "location": {
+      "lat": 16.0749252933487,
+      "lng": 108.16921166431048
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "200 Kinh Dương Vương, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "232 Kinh Dương Vương (THPT Thanh Khê 261 KDV)",
+    "location": {
+      "lat": 16.076507,
+      "lng": 108.166936
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "232 Kinh Dương Vương (THPT Thanh Khê 261 KDV), Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện 399 Kinh Dương Vương",
+    "location": {
+      "lat": 16.080111,
+      "lng": 108.161518
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Đối diện 399 Kinh Dương Vương , Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "43 Trần Đình Tri",
+    "location": {
+      "lat": 16.084061293188995,
+      "lng": 108.15828536482394
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "43 Trần Đình Tri, Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Nút giao Nguyễn Tất Thành - Nguyễn Chánh",
+    "location": {
+      "lat": 16.088418,
+      "lng": 108.155126
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Hoà Minh, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Đối diện cây xăng Petrolimex",
+    "location": {
+      "lat": 16.087952488389988,
+      "lng": 108.15395557015597
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Nguyễn Chánh Hoà Minh Liên Chiểu Đà Nẵng"
+  },
+  {
+    "name": "21 Nguyễn Chánh",
+    "location": {
+      "lat": 16.082498064671128,
+      "lng": 108.14790166617445
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Nguyễn Chánh Hoà Minh Liên Chiểu Đà Nẵng"
+  },
+  {
+    "name": "290 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.082977,
+      "lng": 108.146028
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "290 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "396 Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.086538,
+      "lng": 108.144553
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "396 Nguyễn Lương Bằng, Hoà Khánh Băc, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "438  Nguyễn Lương Bằng",
+    "location": {
+      "lat": 16.090285872868,
+      "lng": 108.14291679971
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "438  Nguyễn Lương Bằng, Hoà Hiệp Nam, Liên Chiểu, Đà Nẵng"
+  },
+  {
+    "name": "Bầu Tràm",
+    "location": {
+      "lat": 16.09577226153891,
+      "lng": 108.13029783865443
+    },
+    "direction": "return",
+    "codeRoute": "TMF",
+    "address": "Đường Mê Linh, đường số 5 Hoà Hiệp Nam Liên Chiểu Đà Nẵng"
+  }
+]

@@ -1,9 +1,9 @@
 "use client";
 
 interface ListingCardProps {
-  code: string;
-  name: string;
-  description: string;
+  code: string | number | undefined;
+  name: string | undefined;
+  description: string | undefined;
   color?: string;
 }
 
@@ -36,7 +36,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
           {code}
         </div>
         <div className="flex-[0_0_55%]">
-          <div className="text-base font-bold hover:text-mainColor">{name}</div>
+          <p className="text-base font-bold hover:text-mainColor">{name}</p>
           <p className="text-sm font-semibold">{description}</p>
         </div>
         <div className="flex-[0_0_20%] items-center justify-center mt-4">
