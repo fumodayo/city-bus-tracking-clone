@@ -7,8 +7,10 @@ import { FaBus } from "react-icons/fa";
 import SearchInput from "../inputs/SearchInput";
 import ListingInfo from "../listings/ListingInfo";
 
-import routesData from "../../data/routes.json";
-import stationsData from "../../data/stations.json";
+// import routesData from "../../data/routes.json";
+// import stationsData from "../../data/stations.json";
+import useBusStopStore from "@/app/hooks/useBusstop";
+import useBusRouteStore from "@/app/hooks/useBusRoute";
 
 enum OPTIONS {
   ROUTES = 0,
@@ -26,12 +28,13 @@ const ContentCase = () => {
     setStep(OPTIONS.BUSSTOPS);
   };
 
-  let bodyContent = <ListingInfo listings={routesData} />;
+  const stationData = useBusStopStore((state) => state.busstopStore);
+  const routeData = useBusRouteStore((state) => state.busRouteStore);
 
-  if(step === OPTIONS.BUSSTOPS){
-    bodyContent = (
-      <ListingInfo listings={stationsData}/>
-    )
+  let bodyContent = <ListingInfo listings={routeData} />;
+
+  if (step === OPTIONS.BUSSTOPS) {
+    bodyContent = <ListingInfo listings={stationData} />;
   }
 
   return (

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import TabBar from "./TabBar";
 import ContentCase from "./ContentCase";
 
 enum OPTIONS {

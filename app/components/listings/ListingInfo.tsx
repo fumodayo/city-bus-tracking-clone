@@ -1,7 +1,6 @@
 "use client";
 
 import ListingCard from "./ListingCard";
-import routesData from "../../data/routes.json";
 import { SafeRoutes, SafeStations } from "../types";
 
 interface ListingInfoProps {
@@ -9,7 +8,7 @@ interface ListingInfoProps {
 }
 
 const ListingInfo: React.FC<ListingInfoProps> = ({ listings }) => {
-  console.log(listings);
+
   return (
     <div
       className="

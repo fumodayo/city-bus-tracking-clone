@@ -1,10 +1,14 @@
 "use client";
 
+import { useCallback, useEffect } from "react";
+import Checkbox from "../inputs/Checkbox";
+import useCheckboxStore from "@/app/hooks/useCheckbox";
+
 interface ListingCardProps {
-  code: string | number | undefined;
-  name: string | undefined;
-  description: string | undefined;
-  color?: string;
+  code: string | number;
+  name: string | null;
+  description: string | null;
+  color: string | undefined;
 }
 
 const ListingCard: React.FC<ListingCardProps> = ({
@@ -13,6 +17,15 @@ const ListingCard: React.FC<ListingCardProps> = ({
   description,
   color,
 }) => {
+  const addCheckedCode = useCheckboxStore((state) => state.checkedCode);
+
+  const handleCheckboxChange = useCallback(
+    (checkedCode: string | number) => {
+      addCheckedCode(checkedCode);
+    },
+    [addCheckedCode]
+  );
+
   return (
     <>
       <div className="flex flex-row cursor-pointer">
@@ -40,16 +53,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
           <p className="text-sm font-semibold">{description}</p>
         </div>
         <div className="flex-[0_0_20%] items-center justify-center mt-4">
-          <input
-            type="checkbox"
-            className="
-              w-6 
-              h-6
-              border-4
-              flex
-              ml-6
-            "
-          />
+          <Checkbox onChange={() => handleCheckboxChange(code)} />
         </div>
       </div>
       <hr className="border-1 border-solid my-5 w-full" />

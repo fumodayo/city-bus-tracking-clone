@@ -5,8 +5,18 @@ import ArrowButton from "../ArrowButton";
 import { VscTriangleLeft, VscTriangleRight } from "react-icons/vsc";
 import Heading from "../Heading";
 import HeadCase from "./HeadCase";
+import { SafeRoutes, SafeStations } from "../types";
+import useBusStopStore from "@/app/hooks/useBusstop";
 
-const Sidebar = () => {
+interface SidebarProps {
+  busstop: SafeStations[];
+  busroute: SafeRoutes[];
+}
+
+const Sidebar: React.FC<SidebarProps> = ({ busstop }) => {
+  const setBusStopStore = useBusStopStore((state) => state.setBusStopStore);
+  setBusStopStore(busstop);
+
   const [open, setOpen] = useState(false);
 
   const onClose = useCallback(() => {
@@ -14,7 +24,7 @@ const Sidebar = () => {
   }, [open]);
 
   return (
-    <div className="flex flex-row fixed">
+    <div className="flex flex-row fixed z-50">
       {open && (
         <div
           className={`
@@ -22,7 +32,7 @@ const Sidebar = () => {
             h-screen
             shadow-2xl
             bg-white
-            box-border
+            box-border 
         `}
         >
           {/* HEADER */}

@@ -2,7 +2,7 @@
 
 import Map from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type {
   MapboxStyle,
   MapRef,
@@ -24,7 +24,8 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
     zoom: 14,
   });
 
-  const onViewportChange = (e: ViewStateChangeEvent) => setViewport(e.viewState);
+  const onViewportChange = (e: ViewStateChangeEvent) =>
+    setViewport(e.viewState);
 
   return (
     <Map
