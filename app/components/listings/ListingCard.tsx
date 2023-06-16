@@ -18,6 +18,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
   color,
 }) => {
   const addCheckedCode = useCheckboxStore((state) => state.checkedCode);
+  const routeCodes = useCheckboxStore((state) => state.routeCodes);
 
   const handleCheckboxChange = useCallback(
     (checkedCode: string | number) => {
@@ -53,7 +54,10 @@ const ListingCard: React.FC<ListingCardProps> = ({
           <p className="text-sm font-semibold">{description}</p>
         </div>
         <div className="flex-[0_0_20%] items-center justify-center mt-4">
-          <Checkbox onChange={() => handleCheckboxChange(code)} />
+          <Checkbox
+            checked={routeCodes.includes(code)}
+            onChange={() => handleCheckboxChange(code)}
+          />
         </div>
       </div>
       <hr className="border-1 border-solid my-5 w-full" />

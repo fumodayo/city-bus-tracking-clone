@@ -7,15 +7,19 @@ import Heading from "../Heading";
 import HeadCase from "./HeadCase";
 import { SafeRoutes, SafeStations } from "../types";
 import useBusStopStore from "@/app/hooks/useBusstop";
+import useBusRouteStore from "@/app/hooks/useBusRoute";
 
 interface SidebarProps {
   busstop: SafeStations[];
   busroute: SafeRoutes[];
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ busstop }) => {
+const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
   const setBusStopStore = useBusStopStore((state) => state.setBusStopStore);
   setBusStopStore(busstop);
+
+  const setBusRouteStore = useBusRouteStore((state) => state.setBusRouteStore);
+  setBusRouteStore(busroute);
 
   const [open, setOpen] = useState(false);
 

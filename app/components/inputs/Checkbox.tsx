@@ -2,12 +2,14 @@
 
 interface CheckboxProps {
   onChange: () => void;
+  checked: boolean;
 }
 
-const Checkbox: React.FC<CheckboxProps> = ({ onChange }) => {
+const Checkbox: React.FC<CheckboxProps> = ({ onChange, checked }) => {
   return (
     <div>
       <input
+        checked={checked}
         onChange={onChange}
         type="checkbox"
         className="

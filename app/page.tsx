@@ -3,13 +3,13 @@ import getBusStops from "./actions/getBusStop";
 
 import ClientOnly from "./components/ClientOnly";
 import MapContainer from "./components/MapContainer";
-import RoadDraw from "./components/RoadDraw";
-import MapMarker from "./components/marker/MapMarker";
+import MapDraw from "./components/MapDraw";
+import MapMarker from "./components/MapMarker";
 import Sidebar from "./components/sidebar/Sidebar";
 
 const Home = async () => {
   const busstop = await getBusStops();
-  const busroute = await getBusRoutes()
+  const busroute = await getBusRoutes();
 
   return (
     <ClientOnly>
@@ -27,13 +27,8 @@ const Home = async () => {
       >
         <MapContainer>
           <Sidebar busstop={busstop} busroute={busroute} />
-          <MapMarker />
-          <RoadDraw
-            cooridinates={[
-              [108.20636160954561, 16.06696053044494],
-              [108.2285059251854, 16.078342175172956],
-            ]}
-          />
+          <MapMarker/>
+          <MapDraw/>
         </MapContainer>
       </div>
     </ClientOnly>

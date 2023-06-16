@@ -35,3 +35,21 @@ p {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
+
+/* */
+.mapboxgl-popup-content {
+  box-shadow: none !important;
+}
+
+.mapboxgl-popup-close-button {
+  font-size: 0px;
+}
+
+.mapboxgl-map .marker {
+  transform: scale(var(--scale-factor, 1));
+  transition: transform 0.3s;
+}
+
+.mapboxgl-map.zoomed .marker {
+  --scale-factor: 1.5;
+}
