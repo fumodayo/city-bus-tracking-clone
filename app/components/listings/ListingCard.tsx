@@ -7,8 +7,9 @@ import useCheckboxStore from "@/app/hooks/useCheckbox";
 interface ListingCardProps {
   code: string | number;
   name: string | null;
-  description: string | null;
+  description?: string | null;
   color: string | undefined;
+  isDisabledCheckbox?: boolean;
 }
 
 const ListingCard: React.FC<ListingCardProps> = ({
@@ -16,6 +17,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
   name,
   description,
   color,
+  isDisabledCheckbox,
 }) => {
   const addCheckedCode = useCheckboxStore((state) => state.checkedCode);
   const routeCodes = useCheckboxStore((state) => state.routeCodes);
@@ -54,10 +56,12 @@ const ListingCard: React.FC<ListingCardProps> = ({
           <p className="text-sm font-semibold">{description}</p>
         </div>
         <div className="flex-[0_0_20%] items-center justify-center mt-4">
-          <Checkbox
-            checked={routeCodes.includes(code)}
-            onChange={() => handleCheckboxChange(code)}
-          />
+          {isDisabledCheckbox && (
+            <Checkbox
+              checked={routeCodes.includes(code)}
+              onChange={() => handleCheckboxChange(code)}
+            />
+          )}
         </div>
       </div>
       <hr className="border-1 border-solid my-5 w-full" />

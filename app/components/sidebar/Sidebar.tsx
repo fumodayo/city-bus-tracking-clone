@@ -4,10 +4,11 @@ import { useCallback, useState } from "react";
 import ArrowButton from "../ArrowButton";
 import { VscTriangleLeft, VscTriangleRight } from "react-icons/vsc";
 import Heading from "../Heading";
-import HeadCase from "./HeadCase";
+import HeadCase from "./HeadTabs";
 import { SafeRoutes, SafeStations } from "../types";
 import useBusStopStore from "@/app/hooks/useBusstop";
 import useBusRouteStore from "@/app/hooks/useBusRoute";
+import HomeSidebar from "../homesidebar/HomeSidebar";
 
 interface SidebarProps {
   busstop: SafeStations[];
@@ -27,8 +28,15 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
     setOpen(!open);
   }, [open]);
 
+  const listingsContent = <HomeSidebar />;
+  const searchingContent = (
+    <div>
+      <h1>Searching</h1>
+    </div>
+  );
+
   return (
-    <div className="flex flex-row fixed z-50">
+    <div className="flex flex-row fixed">
       {open && (
         <div
           className={`
@@ -41,7 +49,12 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
         >
           {/* HEADER */}
           <Heading title="Hệ thống xe buýt Đà Nẵng" />
-          <HeadCase />
+          <HeadCase
+            headingTab="Tra cứu"
+            secondaryheadingTab="Tìm tuyến"
+            headingTabContent={listingsContent}
+            secondaryHeadingTabContent={searchingContent}
+          />
         </div>
       )}
       <ArrowButton
