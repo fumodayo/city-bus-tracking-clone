@@ -37,7 +37,7 @@ const SidebarWrapper: React.FC<SidebarWrapperProps> = ({
   return (
     <div className="flex flex-row fixed z-50">
       <div
-        className={`translate duration-300 h-screen bg-white
+        className={`translate duration-300 bg-white h-screen flex flex-col
         ${showSidebar ? "w-[27rem]" : "w-0"}
         ${showSidebar ? "opacity-100" : "opacity-0"}
         `}

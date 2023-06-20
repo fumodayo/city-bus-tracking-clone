@@ -8,6 +8,7 @@
       "lat": 16.056027725183,
       "lng": 108.17246204884
     },
+    "point": "start",
     "direction": "turn",
     "codeRoute": "LK01",
     "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng",
@@ -179,6 +180,7 @@
       "lat": 16.450211,
       "lng": 107.605643
     },
+    "point": "end",
     "direction": "turn",
     "codeRoute": "LK01",
     "address": "Bến xe Phía Nam Huế, An Đông, Huế, Thừa Thiên Huế",
@@ -198,6 +200,7 @@
       "lat": 16.056027725183,
       "lng": 108.17246204884
     },
+    "point": "start",
     "direction": "turn",
     "codeRoute": "R15",
     "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng",
@@ -692,6 +695,7 @@
       "lat": 16.099556,
       "lng": 108.254962
     },
+    "point": "end",
     "direction": "turn",
     "codeRoute": "R15",
     "address": "Thọ Quang, Thọ Quang, Sơn Trà, Đà Nẵng",
@@ -711,6 +715,7 @@
       "lat": 16.135483,
       "lng": 108.119587
     },
+    "point": "start",
     "direction": "turn",
     "codeRoute": "R16",
     "address": "171 Nguyễn Văn Cừ, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng",
@@ -1661,6 +1666,7 @@
       "lat": 15.974000716308737,
       "lng": 108.25459415115165
     },
+    "point": "end",
     "direction": "turn",
     "codeRoute": "R16",
     "address": "Bến xe buýt Đại học Việt Hàn, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng",
@@ -1680,6 +1686,7 @@
       "lat": 16.082542006424,
       "lng": 108.22358683192
     },
+    "point": "start",
     "direction": "turn",
     "codeRoute": "R17A",
     "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng",
@@ -2227,6 +2234,7 @@
       "$oid": "6489a913a655fc78d37526b4"
     },
     "name": "TTHC Huyện Hòa Vang",
+    "point": "end",
     "location": {
       "lat": 15.986349,
       "lng": 108.139933
@@ -2250,6 +2258,7 @@
       "lat": 16.082542006424,
       "lng": 108.22358683192
     },
+    "point": "start",
     "direction": "turn",
     "codeRoute": "R4A",
     "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng",
@@ -2858,6 +2867,7 @@
       "lat": 15.952699,
       "lng": 108.178723
     },
+    "point": "end",
     "direction": "turn",
     "codeRoute": "R4A",
     "address": "Hòa Tiến, Hoà Tiến, Hoà Vang, Đà Nẵng",
@@ -2877,6 +2887,7 @@
       "lat": 16.056027725183,
       "lng": 108.17246204884
     },
+    "point": "start",
     "direction": "turn",
     "codeRoute": "R6A",
     "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng",
@@ -3447,6 +3458,7 @@
       "lat": 16.0000353983843,
       "lng": 108.26583313176616
     },
+    "point": "end",
     "direction": "turn",
     "codeRoute": "R6A",
     "address": "Khu du lịch Non Nước, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng",
@@ -3466,6 +3478,7 @@
       "lat": 16.09577226153891,
       "lng": 108.13029783865443
     },
+    "point": "start",
     "direction": "turn",
     "codeRoute": "TMF",
     "address": "Đường Mê Linh, đường số 5 Hoà Hiệp Nam Liên Chiểu Đà Nẵng",
@@ -4036,6 +4049,7 @@
       "lat": 16.073360839352,
       "lng": 108.24546634199
     },
+    "point": "end",
     "direction": "turn",
     "codeRoute": "TMF",
     "address": "Công viên Biển Đông, Phước Mỹ, Sơn Trà, Đà Nẵng",
@@ -4055,6 +4069,7 @@
       "lat": 16.450211,
       "lng": 107.605643
     },
+    "point": "start",
     "direction": "return",
     "codeRoute": "LK01",
     "address": "Bến xe Phía Nam Huế, An Đông, Huế, Thừa Thiên Huế",
@@ -4226,6 +4241,7 @@
       "lat": 16.056027725183,
       "lng": 108.17246204884
     },
+    "point": "end",
     "direction": "return",
     "codeRoute": "LK01",
     "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng",
@@ -4245,6 +4261,7 @@
       "lat": 16.099556,
       "lng": 108.254962
     },
+    "point": "start",
     "direction": "return",
     "codeRoute": "R15",
     "address": "Thọ Quang, Thọ Quang, Sơn Trà, Đà Nẵng",
@@ -4758,6 +4775,7 @@
       "lat": 16.056027725183,
       "lng": 108.17246204884
     },
+    "point": "end",
     "direction": "return",
     "codeRoute": "R15",
     "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng",
@@ -4777,6 +4795,7 @@
       "lat": 15.974000716308737,
       "lng": 108.25459415115165
     },
+    "point": "start",
     "direction": "return",
     "codeRoute": "R16",
     "address": "Bến xe buýt Đại học Việt Hàn, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng",
@@ -5727,6 +5746,7 @@
       "lat": 16.135440886754,
       "lng": 108.11984065246
     },
+    "point": "end",
     "direction": "return",
     "codeRoute": "R16",
     "address": "274 Nguyễn Văn Cừ, Hoà Hiệp Băc, Liên Chiểu, Đà Nẵng",
@@ -5746,6 +5766,7 @@
       "lat": 15.98748954273455,
       "lng": 108.14082051183311
     },
+    "point": "start",
     "direction": "return",
     "codeRoute": "R17A",
     "address": "Trạm xe buýt trung tâm hành chính huyện Hòa Vang, Hoà Phong, Hoà Vang, Đà Nẵng",
@@ -6316,6 +6337,7 @@
       "lat": 16.082542006424,
       "lng": 108.22358683192
     },
+    "point": "end",
     "direction": "return",
     "codeRoute": "R17A",
     "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng",
@@ -6335,6 +6357,7 @@
       "lat": 15.952699,
       "lng": 108.178723
     },
+    "point": "start",
     "direction": "return",
     "codeRoute": "R4A",
     "address": "Hòa Tiến, Hoà Tiến, Hoà Vang, Đà Nẵng",
@@ -6943,6 +6966,7 @@
       "lat": 16.082542006424,
       "lng": 108.22358683192
     },
+    "point": "end",
     "direction": "return",
     "codeRoute": "R4A",
     "address": "Cảng Sông Hàn, Thuận Phước, Hải Châu, Đà Nẵng",
@@ -6962,6 +6986,7 @@
       "lat": 16.0000353983843,
       "lng": 108.26583313176616
     },
+    "point": "start",
     "direction": "return",
     "codeRoute": "R6A",
     "address": "Khu du lịch Non Nước, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng",
@@ -7551,6 +7576,7 @@
       "lat": 16.056027725183,
       "lng": 108.17246204884
     },
+    "point": "end",
     "direction": "return",
     "codeRoute": "R6A",
     "address": "Bến xe Đà Nẵng, Hoà Minh, Liên Chiểu, Đà Nẵng",
@@ -7570,6 +7596,7 @@
       "lat": 16.073360839352,
       "lng": 108.24546634199
     },
+    "point": "start",
     "direction": "return",
     "codeRoute": "TMF",
     "address": "Công viên Biển Đông, Phước Mỹ, Sơn Trà, Đà Nẵng",
@@ -8083,6 +8110,7 @@
       "lat": 16.09577226153891,
       "lng": 108.13029783865443
     },
+    "point": "end",
     "direction": "return",
     "codeRoute": "TMF",
     "address": "Đường Mê Linh, đường số 5 Hoà Hiệp Nam Liên Chiểu Đà Nẵng",

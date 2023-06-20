@@ -41,7 +41,6 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
         <div
           className={`
             w-[27rem]
-            h-screen
             shadow-2xl
             bg-white
             box-border 

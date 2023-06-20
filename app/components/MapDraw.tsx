@@ -19,6 +19,7 @@ const MapDraw = () => {
   };
 
   const filteredRoad = filterRoad(roadmap, checked, "turn");
+  console.log(filteredRoad);
   return (
     <div>
       {filteredRoad.map((route: any) => (

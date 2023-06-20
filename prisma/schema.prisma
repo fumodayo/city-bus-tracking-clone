@@ -13,6 +13,7 @@ model BusStop {
   direction String?
   codeRoute String?
   address   String?
+  point     String?
   location  Location
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
