@@ -33,7 +33,7 @@ const HeadTabs: React.FC<HeadTabsProps> = ({
   let bodyContent = headingTabContent;
 
   if (step === OPTIONS.TAB_2) {
-    bodyContent = secondaryheadingTab;
+    bodyContent = secondaryHeadingTabContent;
   }
 
   return (

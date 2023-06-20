@@ -14,25 +14,12 @@ const Home = async () => {
 
   return (
     <ClientOnly>
-      <div
-        className="
-          grid 
-          grid-cols-1
-          sm:grid-cols-2
-          md:grid-cols-3
-          lg:grid-cols-4
-          xl:grid-cols-5
-          2xl:grid-cols-6
-          gap-8
-        "
-      >
-        <MapContainer>
-          <RouteSidebar />
-          <Sidebar busstop={busstop} busroute={busroute} />
-          <MapMarker />
-          <MapDraw />
-        </MapContainer>
-      </div>
+      <MapContainer>
+        <RouteSidebar />
+        <Sidebar busstop={busstop} busroute={busroute} />
+        <MapMarker />
+        <MapDraw />
+      </MapContainer>
     </ClientOnly>
   );
 };

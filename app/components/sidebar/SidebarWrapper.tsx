@@ -4,26 +4,18 @@ import { useCallback, useEffect, useState } from "react";
 import Heading from "../Heading";
 import { RiCloseLine } from "react-icons/ri";
 
-interface ContentSidebarProps {
+interface SidebarWrapperProps {
   isOpen: boolean;
   onClose: () => void;
   title: string;
-  headingTab: string;
-  secondaryheadingTab: String;
-  headingTabContent?: React.ReactElement;
-  secondaryHeadingTabContent?: React.ReactElement;
-  body?: React.ReactElement;
+  children: React.ReactNode;
 }
 
-const ContentSidebar: React.FC<ContentSidebarProps> = ({
+const SidebarWrapper: React.FC<SidebarWrapperProps> = ({
   isOpen,
   onClose,
   title,
-  headingTab,
-  secondaryheadingTab,
-  headingTabContent,
-  secondaryHeadingTabContent,
-  body,
+  children,
 }) => {
   const [showSidebar, setShowSidebar] = useState(false);
 
@@ -45,17 +37,18 @@ const ContentSidebar: React.FC<ContentSidebarProps> = ({
   return (
     <div className="flex flex-row fixed z-50">
       <div
-        className={`translate duration-300 h-full 
+        className={`translate duration-300 h-screen bg-white
         ${showSidebar ? "w-[27rem]" : "w-0"}
         ${showSidebar ? "opacity-100" : "opacity-0"}
         `}
       >
         {/* HEADER */}
-        <Heading title="xem luot di" onClick={handleClose} icon={RiCloseLine} />
+        <Heading title={title} onClick={handleClose} icon={RiCloseLine} />
         {/* CONTENT */}
+        {children}
       </div>
     </div>
   );
 };
 
-export default ContentSidebar;
+export default SidebarWrapper;

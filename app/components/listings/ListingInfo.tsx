@@ -4,6 +4,9 @@ import ListingCard from "./ListingCard";
 import { SafeRoutes, SafeStations } from "../types";
 import SearchInput from "../inputs/SearchInput";
 
+import { useState, useEffect } from "react";
+import InfiniteScroll from "react-infinite-scroll-component";
+
 interface ListingInfoProps {
   isListingRoutes?: boolean;
   listings: SafeRoutes[] | SafeStations[];
@@ -13,6 +16,12 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
   listings,
   isListingRoutes,
 }) => {
+  const [dataSource, setDataSource] = useState(listings);
+
+  useEffect(() => {
+    setDataSource(listings);
+  }, [listings]);
+
   return (
     <div>
       <div className="py-2">
@@ -28,14 +37,14 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
         py-2
         flex
         flex-col
-        max-h-[450px]
+        h-[450px]
         overflow-y-scroll
         overflow-x-hidden
       "
       >
         {listings.map((route, index) => (
           <ListingCard
-            key={route.code}
+            key={index}
             code={route.code ? route.code : index}
             name={route.name}
             description={route.address}
