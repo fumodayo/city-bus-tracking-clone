@@ -1,15 +1,14 @@
-"use client";
-
 import { useMemo } from "react";
 import { Source, Layer } from "react-map-gl";
-import { Feature, LineString } from "geojson";
+import { Feature, LineString, Position } from "geojson";
 
 interface RoadDrawProps {
-  cooridinates: number[][];
+  coordinates: [];
+  color: string;
 }
 
-const RoadDraw: React.FC<RoadDrawProps> = ({ cooridinates = [] }) => {
-  const getGeoJSON = (coordinates: number[][]): Feature<LineString> => {
+const RoadDraw: React.FC<RoadDrawProps> = ({ coordinates = [], color }) => {
+  const getGeoJSON = (coordinates: Position[]): Feature<LineString> => {
     return {
       type: "Feature",
       properties: {},
@@ -22,20 +21,20 @@ const RoadDraw: React.FC<RoadDrawProps> = ({ cooridinates = [] }) => {
 
   const route = useMemo(() => {
     return (
-      <Source id="route" type="geojson" data={getGeoJSON(cooridinates)}>
+      <Source id={`route`} type="geojson" data={getGeoJSON(coordinates)}>
         <Layer
-          id="route-layer"
+          id={`route-layer`}
           type="line"
           paint={{
-            "line-color": "#0070f3",
+            "line-color": color,
             "line-width": 2,
           }}
         />
       </Source>
     );
-  }, [cooridinates]);
+  }, [coordinates, color]);
 
-  return <div>{route}</div>;
+  return <>{route}</>;
 };
 
 export default RoadDraw;

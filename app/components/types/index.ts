@@ -19,3 +19,10 @@ export type SafeStations = {
   codeRoute: string | null;
   address: string | null;
 };
+
+export type SafeRoad = {
+  direction: string;
+  codeRoute: string;
+  color: string;
+  line: number[][];
+};

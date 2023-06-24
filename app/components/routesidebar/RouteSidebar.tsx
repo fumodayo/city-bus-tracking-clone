@@ -11,16 +11,35 @@ import useBusRouteStore from "@/app/hooks/useBusRoute";
 import useBusStopStore from "@/app/hooks/useBusstop";
 import { useRouter, useSearchParams } from "next/navigation";
 import qs from "query-string";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
+
+import { useFilterBusstop } from "@/app/hooks/useFilter";
 
 const RouteSidebar = () => {
   const sidebar = useRouteSidebar();
+  const busstore = useBusStopStore();
+
+  const router = useRouter();
+  const params = useSearchParams();
+
+  const [codeRoute, setCodeRoute] = useState("");
+
+  useMemo(() => {
+    let currentQuery: { [index: string]: any } = {};
+    if (params) {
+      currentQuery = qs.parse(params.toString());
+    }
+    const code = currentQuery["route-detail"];
+    setCodeRoute(code);
+    busstore.setCode(code);
+  }, [params]);
+
   const setBusRouteStore = useBusRouteStore((state) => state.busRouteStore);
-  const busstopStore = useBusStopStore((state) => state.busstopStore);
-  const filterRoute = setBusRouteStore.filter((route) => route.code === "LK01");
-  const filterBusStop = busstopStore.filter(
-    (bus) => bus.codeRoute === "LK01" && bus.direction === "turn"
+  const filterRoute = setBusRouteStore.filter(
+    (route) => route.code === codeRoute
   );
+
+  const filterBusStop = useFilterBusstop();
 
   const listBusStopInRoute = <ListingBusStop listings={filterBusStop} />;
   const routeInfo = <RouteInfo listings={filterRoute} />;
@@ -37,24 +56,14 @@ const RouteSidebar = () => {
     <SecondaryTabs
       headingTab="Trạm dừng"
       secondaryheadingTab="Thông tin"
+      headingTabContent={listBusStopInRoute}
       secondaryHeadingTabContent={routeInfo}
     />
   );
 
-  const router = useRouter();
-  const params = useSearchParams();
-
-  useMemo(() => {
-    let currentQuery: { [index: string]: any } = {};
-    if (params) {
-      currentQuery = qs.parse(params.toString());
-    }
-    const code = currentQuery["route-detail"];
-  }, [params]);
-
   return (
     <SidebarWrapper
-      title="Ten tuyen"
+      title={`Tuyến ${codeRoute}`}
       isOpen={sidebar.isOpen}
       onClose={sidebar.onClose}
     >
@@ -63,6 +72,7 @@ const RouteSidebar = () => {
         secondaryheadingTab="Xem lượt về"
         headingTabContent={startRouteContent}
         secondaryHeadingTabContent={returnRouteContent}
+        directions
       />
     </SidebarWrapper>
   );

@@ -2,10 +2,11 @@
 
 interface CheckboxProps {
   onChange: () => void;
-  checked: boolean;
+  checked?: boolean;
+  disabled?: boolean;
 }
 
-const Checkbox: React.FC<CheckboxProps> = ({ onChange, checked }) => {
+const Checkbox: React.FC<CheckboxProps> = ({ onChange, checked, disabled }) => {
   return (
     <div>
       <input
@@ -19,6 +20,7 @@ const Checkbox: React.FC<CheckboxProps> = ({ onChange, checked }) => {
               flex
               ml-6
             "
+        disabled={disabled}
       />
     </div>
   );

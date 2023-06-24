@@ -1,29 +1,20 @@
 "use client";
 
-import useCheckboxStore from "../hooks/useCheckbox";
-import roadmap from "../data/roadmap.json";
 import RoadDraw from "./RoadDraw";
 
+import { useFilteredPath } from "../hooks/useFilter";
+
 const MapDraw = () => {
-  const checked = useCheckboxStore((state) => state.routeCodes);
+  const filteredRoad = useFilteredPath();
 
-  const filterRoad = (
-    objects: any,
-    checked: (string | number)[],
-    direction = "turn"
-  ) => {
-    return objects.filter(
-      (obj: any) =>
-        checked.includes(obj.codeRoute) && obj.direction === direction
-    );
-  };
-
-  const filteredRoad = filterRoad(roadmap, checked, "turn");
-  console.log(filteredRoad);
   return (
     <div>
       {filteredRoad.map((route: any) => (
-        <RoadDraw key={route.codeRoute} cooridinates={route.line} />
+        <RoadDraw
+          key={route.codeRoute}
+          color={route.color}
+          coordinates={route.line}
+        />
       ))}
     </div>
   );

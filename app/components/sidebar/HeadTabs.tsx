@@ -1,5 +1,6 @@
 "use client";
 
+import useBusStopStore from "@/app/hooks/useBusstop";
 import { useState } from "react";
 
 enum OPTIONS {
@@ -12,6 +13,7 @@ interface HeadTabsProps {
   secondaryheadingTab: String;
   headingTabContent?: React.ReactElement;
   secondaryHeadingTabContent?: React.ReactElement;
+  directions?: boolean;
 }
 
 const HeadTabs: React.FC<HeadTabsProps> = ({
@@ -19,15 +21,23 @@ const HeadTabs: React.FC<HeadTabsProps> = ({
   secondaryheadingTab,
   headingTabContent,
   secondaryHeadingTabContent,
+  directions,
 }) => {
   const [step, setStep] = useState(OPTIONS.TAB_1);
+  const busstopStore = useBusStopStore();
 
-  const onChooseTAB_1 = () => {
+  const onChooseTAB_1 = (e: any) => {
     setStep(OPTIONS.TAB_1);
+    if (directions) {
+      busstopStore.setDirection("turn");
+    }
   };
 
   const onChooseTAB_2 = () => {
     setStep(OPTIONS.TAB_2);
+    if (directions) {
+      busstopStore.setDirection("return");
+    }
   };
 
   let bodyContent = headingTabContent;

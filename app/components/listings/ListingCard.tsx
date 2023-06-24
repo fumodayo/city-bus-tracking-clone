@@ -1,12 +1,13 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useState, useEffect } from "react";
 import Checkbox from "../inputs/Checkbox";
 import useCheckboxStore from "@/app/hooks/useCheckbox";
 
 import { useRouter, useSearchParams } from "next/navigation";
 import qs from "query-string";
 import useRouteSidebar from "@/app/hooks/useRouteSidebar";
+import toast from "react-hot-toast";
 
 interface ListingCardProps {
   code: string | number;
@@ -23,14 +24,26 @@ const ListingCard: React.FC<ListingCardProps> = ({
   color,
   isDisabledCheckbox,
 }) => {
-  const addCheckedCode = useCheckboxStore((state) => state.checkedCode);
-  const routeCodes = useCheckboxStore((state) => state.routeCodes);
+  const checkboxStore = useCheckboxStore();
+
+  /* checked một ô thì các ô khác sẽ disabled trừ ô đã checked */
+  const [isChecked, setIsChecked] = useState(
+    checkboxStore.routeCodes.includes(code)
+  );
+  const [isDisabled, setIsDisabled] = useState(false);
+
+  useEffect(() => {
+    setIsChecked(checkboxStore.routeCodes.includes(code));
+    setIsDisabled(checkboxStore.routeCodes.length > 0 && !isChecked);
+  }, [checkboxStore.routeCodes, code, isChecked]);
+  /***/
 
   const handleCheckboxChange = useCallback(
     (checkedCode: string | number) => {
-      addCheckedCode(checkedCode);
+      checkboxStore.checkedCode(checkedCode);
+      toast.success('Hoàn thành!')
     },
-    [addCheckedCode]
+    [checkboxStore]
   );
 
   const router = useRouter();
@@ -57,9 +70,12 @@ const ListingCard: React.FC<ListingCardProps> = ({
       { skipNull: true }
     );
     newSidebar.onOpen();
-    addCheckedCode(code);
+
+    checkboxStore.routeCodes = [];
+    checkboxStore.checkedCode(code);
+
     router.push(url);
-  }, [params, router, code, newSidebar, addCheckedCode]);
+  }, [params, router, code, newSidebar, checkboxStore]);
 
   return (
     <>
@@ -90,8 +106,9 @@ const ListingCard: React.FC<ListingCardProps> = ({
         <div className="flex-[0_0_20%] items-center justify-center mt-4">
           {isDisabledCheckbox && (
             <Checkbox
-              checked={routeCodes.includes(code)}
+              checked={isChecked}
               onChange={() => handleCheckboxChange(code)}
+              disabled={isDisabled}
             />
           )}
         </div>

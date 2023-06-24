@@ -7,6 +7,7 @@ import MapDraw from "./components/MapDraw";
 import MapMarker from "./components/MapMarker";
 import RouteSidebar from "./components/routesidebar/RouteSidebar";
 import Sidebar from "./components/sidebar/Sidebar";
+import ToastProvider from "./providers/ToastProvider";
 
 const Home = async () => {
   const busstop = await getBusStops();
@@ -14,6 +15,7 @@ const Home = async () => {
 
   return (
     <ClientOnly>
+      <ToastProvider />
       <MapContainer>
         <RouteSidebar />
         <Sidebar busstop={busstop} busroute={busroute} />
