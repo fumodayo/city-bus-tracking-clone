@@ -8,6 +8,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import qs from "query-string";
 import useRouteSidebar from "@/app/hooks/useRouteSidebar";
 import toast from "react-hot-toast";
+import useBusstopSidebar from "@/app/hooks/useBusstopSidebar";
 
 interface ListingCardProps {
   code: string | number;
@@ -41,41 +42,68 @@ const ListingCard: React.FC<ListingCardProps> = ({
   const handleCheckboxChange = useCallback(
     (checkedCode: string | number) => {
       checkboxStore.checkedCode(checkedCode);
-      toast.success('Hoàn thành!')
+      toast.success("Hoàn thành!");
     },
     [checkboxStore]
   );
 
   const router = useRouter();
   const params = useSearchParams();
-  const newSidebar = useRouteSidebar();
+  const routeSidebar = useRouteSidebar();
+  const busstopSidebar = useBusstopSidebar();
 
   const handleClick = useCallback(() => {
-    let currentQuery = {};
+    if (code) {
+      let currentQuery = {};
 
-    if (params) {
-      currentQuery = qs.parse(params.toString());
+      if (params) {
+        currentQuery = qs.parse(params.toString());
+      }
+
+      const updatedQuery: any = {
+        ...currentQuery,
+        ["route_detail"]: code,
+      };
+
+      const url = qs.stringifyUrl(
+        {
+          url: "/",
+          query: updatedQuery,
+        },
+        { skipNull: true }
+      );
+      routeSidebar.onOpen();
+
+      checkboxStore.routeCodes = [];
+      checkboxStore.checkedCode(code);
+
+      router.push(url);
+    } else {
+      let currentQuery = {};
+
+      if (params) {
+        currentQuery = qs.parse(params.toString());
+      }
+
+      const updatedQuery: any = {
+        ...currentQuery,
+        ["busstop_detail"]: name,
+      };
+
+      const url = qs.stringifyUrl(
+        {
+          url: "/",
+          query: updatedQuery,
+        },
+        { skipNull: true }
+      );
+
+      busstopSidebar.onOpen();
+      checkboxStore.routeCodes = [];
+
+      router.push(url);
     }
-
-    const updatedQuery: any = {
-      ...currentQuery,
-      ["route-detail"]: code,
-    };
-
-    const url = qs.stringifyUrl(
-      {
-        url: "/",
-        query: updatedQuery,
-      },
-      { skipNull: true }
-    );
-    newSidebar.onOpen();
-
-    checkboxStore.routeCodes = [];
-    checkboxStore.checkedCode(code);
-
-    router.push(url);
-  }, [params, router, code, newSidebar, checkboxStore]);
+  }, [params, router, code, checkboxStore, name, busstopSidebar, routeSidebar]);
 
   return (
     <>
