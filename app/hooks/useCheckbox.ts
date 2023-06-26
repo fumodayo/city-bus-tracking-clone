@@ -1,13 +1,13 @@
 import { create } from "zustand";
 
 interface CheckboxStore {
-  routeCodes: Array<string | number>;
-  checkedCode: (code: string | number) => void;
+  routeCodes: Array<string>;
+  checkedCode: (code: string) => void;
 }
 
 const useCheckboxStore = create<CheckboxStore>((set, get) => ({
   routeCodes: [],
-  checkedCode: (code: string | number) => {
+  checkedCode: (code: string) => {
     const routesCodes = get().routeCodes;
     if (routesCodes.includes(code)) {
       set({ routeCodes: routesCodes.filter((item) => item !== code) });

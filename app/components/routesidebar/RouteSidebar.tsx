@@ -9,7 +9,7 @@ import ListingBusStop from "./ListingBusStop";
 import RouteInfo from "./RouteInfo";
 import useBusRouteStore from "@/app/hooks/useBusRoute";
 import useBusStopStore from "@/app/hooks/useBusstop";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import qs from "query-string";
 import { useMemo, useState } from "react";
 
@@ -19,19 +19,17 @@ const RouteSidebar = () => {
   const sidebar = useRouteSidebar();
   const busstore = useBusStopStore();
 
-  const router = useRouter();
   const params = useSearchParams();
 
   const [codeRoute, setCodeRoute] = useState("");
 
   useMemo(() => {
-    let currentQuery: { [index: string]: any } = {};
     if (params) {
-      currentQuery = qs.parse(params.toString());
+      const currentQuery = qs.parse(params.toString());
+      const code = currentQuery["route_detail"];
+      setCodeRoute(code as string);
+      busstore.setCode(code as string);
     }
-    const code = currentQuery["route-detail"];
-    setCodeRoute(code);
-    busstore.setCode(code);
   }, [params]);
 
   const setBusRouteStore = useBusRouteStore((state) => state.busRouteStore);

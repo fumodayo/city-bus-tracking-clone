@@ -36,7 +36,7 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
   );
 
   return (
-    <div className="flex flex-row fixed">
+    <div className="flex flex-row">
       {open && (
         <div
           className={`

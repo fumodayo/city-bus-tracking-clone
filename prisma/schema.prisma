@@ -27,7 +27,7 @@ type Location {
 model BusRoute {
   id                   String  @id @default(auto()) @map("_id") @db.ObjectId
   name                 String?
-  code                 String? @unique
+  code                 String @unique
   address              String?
   routeDirectionStart  String?
   routeDirectionReturn String?

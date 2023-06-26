@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import Heading from "../Heading";
 import { RiCloseLine } from "react-icons/ri";
+import { useRouter } from "next/navigation";
 
 interface SidebarWrapperProps {
   isOpen: boolean;
@@ -17,6 +18,7 @@ const SidebarWrapper: React.FC<SidebarWrapperProps> = ({
   title,
   children,
 }) => {
+  const router = useRouter();
   const [showSidebar, setShowSidebar] = useState(false);
 
   useEffect(() => {
@@ -28,6 +30,7 @@ const SidebarWrapper: React.FC<SidebarWrapperProps> = ({
     setTimeout(() => {
       onClose();
     }, 300);
+    router.push("/");
   }, [onClose]);
 
   if (!showSidebar) {

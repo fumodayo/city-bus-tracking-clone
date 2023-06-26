@@ -1,7 +1,8 @@
 "use client";
 
 import SecondaryTabs from "../sidebar/SecondaryTabs";
-import ListingInfo from "../listings/ListingInfo";
+import ListingRoute from "../listings/ListingRoute";
+import ListingBusstop from "../listings/ListingBusstop";
 
 import useBusStopStore from "@/app/hooks/useBusstop";
 import useBusRouteStore from "@/app/hooks/useBusRoute";
@@ -10,13 +11,10 @@ import { FaBus } from "react-icons/fa";
 
 const HomeSidebar = () => {
   const busstopStore = useBusStopStore((state) => state.busstopStore);
-  const busRouteStore = useBusRouteStore((state) => state.busRouteStore);
 
-  const listingsbusRouteStore = (
-    <ListingInfo listings={busRouteStore} isListingRoutes />
-  );
+  const listingsbusRouteStore = <ListingRoute/>;
 
-  const listingsbusStopStore = <ListingInfo listings={busstopStore} />;
+  const listingsbusStopStore = <ListingBusstop listings={busstopStore} />;
 
   return (
     <SecondaryTabs
