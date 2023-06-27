@@ -5,7 +5,8 @@ import ClientOnly from "./components/ClientOnly";
 import MapContainer from "./components/MapContainer";
 import MapDraw from "./components/MapDraw";
 import MapMarker from "./components/MapMarker";
-import BusstopSidebar from "./components/busstopsidebar/BusstopSidebar";
+import PlaceMarker from "./components/PlaceMarker";
+
 import Chips from "./components/chips/Chips";
 import RouteSidebar from "./components/routesidebar/RouteSidebar";
 import Sidebar from "./components/sidebar/Sidebar";
@@ -20,12 +21,13 @@ const Home = async () => {
       <ToastProvider />
       <MapContainer>
         <RouteSidebar />
-        <div className="flex flex-row fixed">
+        <MapMarker />
+        <MapDraw />
+        <PlaceMarker />
+        <div className="flex flex-row">
           <Sidebar busstop={busstop} busroute={busroute} />
           <Chips />
         </div>
-        <MapMarker />
-        <MapDraw />
       </MapContainer>
     </ClientOnly>
   );

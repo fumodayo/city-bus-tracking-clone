@@ -1,17 +1,26 @@
 "use client";
 
-import { Marker, Popup } from "react-map-gl";
-import Pin from "./Pin";
 import { useMemo, useState } from "react";
+import { Marker, Popup } from "react-map-gl";
+
+import Pin from "./Pin";
+import Place from "./Place";
+
 import { SafeStations } from "../types";
 
 interface MarkerDrawProps {
   lat: number;
   lng: number;
   location: SafeStations;
+  isPlace?: boolean;
 }
 
-const MarkerDraw: React.FC<MarkerDrawProps> = ({ lat, lng, location }) => {
+const MarkerDraw: React.FC<MarkerDrawProps> = ({
+  lat,
+  lng,
+  location,
+  isPlace,
+}) => {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleMouseEnter = () => {
@@ -30,9 +39,17 @@ const MarkerDraw: React.FC<MarkerDrawProps> = ({ lat, lng, location }) => {
     );
   }, [lat, lng]);
 
+  const palace = useMemo(() => {
+    return (
+      <Marker longitude={lng} latitude={lat} anchor="top">
+        <Place />
+      </Marker>
+    );
+  }, [lat, lng]);
+
   return (
     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      {pin}
+      {isPlace ? palace : pin}
       {showPopup && (
         <Popup
           longitude={lng}
@@ -52,7 +69,10 @@ const MarkerDraw: React.FC<MarkerDrawProps> = ({ lat, lng, location }) => {
             font-bold
           "
         >
-          {location.address}
+          {location.name && (
+            <div className="text-sm font-bold">{location.name}</div>
+          )}
+          <div className="text-sm font-normal">{location.address}</div>
         </Popup>
       )}
     </div>

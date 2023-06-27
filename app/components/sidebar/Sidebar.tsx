@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
   const searchingRoute = <div>Search</div>;
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row relative">
       {open && (
         <div
           className={`

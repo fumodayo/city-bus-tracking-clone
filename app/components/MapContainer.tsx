@@ -4,9 +4,7 @@ import Map from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { useEffect, useRef, useState } from "react";
 import type {
-  MapboxStyle,
   MapRef,
-  MapLayerMouseEvent,
   ViewStateChangeEvent,
 } from "react-map-gl";
 import useFlyToStore from "../hooks/useFlyStore";

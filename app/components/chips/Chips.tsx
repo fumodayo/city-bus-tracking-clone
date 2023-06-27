@@ -2,7 +2,7 @@
 
 import useNearbySearch from "@/app/hooks/useNearbySearch";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useEffect } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import { IconType } from "react-icons";
 import {
   MdOutlineRestaurant,
@@ -11,6 +11,7 @@ import {
   MdSchool,
 } from "react-icons/md";
 import qs from "query-string";
+import MarkerDraw from "../marker/MarkerDraw";
 
 const chipItems = [
   {
@@ -105,22 +106,35 @@ export const Chip: React.FC<ChipProps> = ({
 };
 
 const Chips = () => {
-  // const getAll  = useNearbySearch();
-  // console.log(getAll);
   const params = useSearchParams();
   const category = params?.get("text");
+  // const getNearPlaces = useNearbySearch(category);
+
+  // const places = useMemo(() => {
+  //   getNearPlaces.map((point, index) => (
+  //     <MarkerDraw
+  //       key={index}
+  //       lat={point["lat"]}
+  //       lng={point["lng"]}
+  //       location={point}
+  //     />
+  //   ));
+  // }, [getNearPlaces]);
+
   return (
-    <div className="p-2 flex flex-row">
-      {chipItems.map((chip) => (
-        <Chip
-          key={chip.id}
-          name={chip.name}
-          id={chip.id}
-          icon={chip.icon}
-          selected={category === chip.id}
-        />
-      ))}
-    </div>
+    <>
+      <div className="flex flex-row max-h-10 relative z-50">
+        {chipItems.map((chip) => (
+          <Chip
+            key={chip.id}
+            name={chip.name}
+            id={chip.id}
+            icon={chip.icon}
+            selected={category === chip.id}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 
