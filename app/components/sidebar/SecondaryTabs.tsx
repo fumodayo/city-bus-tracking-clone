@@ -12,9 +12,10 @@ enum OPTIONS {
 interface SecondaryTabsProps {
   headingTab: string;
   secondaryheadingTab: String;
-  headingTabContent?: React.ReactElement;
-  secondaryHeadingTabContent?: React.ReactElement;
-  icon?: IconType;
+  headingTabContent?: React.ReactNode;
+  secondaryHeadingTabContent?: React.ReactNode;
+  iconFirst?: IconType;
+  iconSecond?: IconType;
 }
 
 const SecondaryTabs: React.FC<SecondaryTabsProps> = ({
@@ -22,7 +23,8 @@ const SecondaryTabs: React.FC<SecondaryTabsProps> = ({
   secondaryheadingTab,
   headingTabContent,
   secondaryHeadingTabContent,
-  icon: Icon,
+  iconFirst: IconFirst,
+  iconSecond: IconSecond,
 }) => {
   const [step, setStep] = useState(OPTIONS.TAB_1);
 
@@ -70,6 +72,7 @@ const SecondaryTabs: React.FC<SecondaryTabsProps> = ({
             ${step === OPTIONS.TAB_1 && "bg-primaryColor text-mainColor"}
           `}
         >
+          {IconFirst && <IconFirst size={18} className="mr-1" />}
           {headingTab}
         </div>
         <div
@@ -84,7 +87,7 @@ const SecondaryTabs: React.FC<SecondaryTabsProps> = ({
             ${step === OPTIONS.TAB_2 && "bg-primaryColor text-mainColor"}
         `}
         >
-          {Icon && <Icon size={18} className="mr-1" />}
+          {IconSecond && <IconSecond size={18} className="mr-1" />}
           {secondaryheadingTab}
         </div>
       </div>

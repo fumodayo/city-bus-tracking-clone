@@ -4,11 +4,13 @@ import { useCallback, useState } from "react";
 import ArrowButton from "../ArrowButton";
 import { VscTriangleLeft, VscTriangleRight } from "react-icons/vsc";
 import Heading from "../Heading";
-import HeadCase from "./HeadTabs";
 import { SafeRoutes, SafeStations } from "../types";
 import useBusStopStore from "@/app/hooks/useBusstop";
 import useBusRouteStore from "@/app/hooks/useBusRoute";
-import HomeSidebar from "../homesidebar/HomeSidebar";
+import SecondaryTabs from "./SecondaryTabs";
+import ListingRoute from "../listings/ListingRoute";
+
+import { FaBus, FaDirections } from "react-icons/fa";
 
 interface SidebarProps {
   busstop: SafeStations[];
@@ -28,12 +30,8 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
     setOpen(!open);
   }, [open]);
 
-  const listingsContent = <HomeSidebar />;
-  const searchingContent = (
-    <div>
-      <h1>Searching</h1>
-    </div>
-  );
+  const listingsbusRouteStore = <ListingRoute />;
+  const searchingRoute = <div>Search</div>;
 
   return (
     <div className="flex flex-row">
@@ -43,16 +41,19 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
             w-[27rem]
             shadow-2xl
             bg-white
-            box-border 
+            box-border
+            h-screen
         `}
         >
           {/* HEADER */}
           <Heading title="Hệ thống xe buýt Đà Nẵng" />
-          <HeadCase
+          <SecondaryTabs
             headingTab="Tra cứu"
             secondaryheadingTab="Tìm tuyến"
-            headingTabContent={listingsContent}
-            secondaryHeadingTabContent={searchingContent}
+            headingTabContent={listingsbusRouteStore}
+            secondaryHeadingTabContent={searchingRoute}
+            iconFirst={FaBus}
+            iconSecond={FaDirections}
           />
         </div>
       )}

@@ -19,7 +19,6 @@ const Home = async () => {
     <ClientOnly>
       <ToastProvider />
       <MapContainer>
-        <BusstopSidebar />
         <RouteSidebar />
         <div className="flex flex-row fixed">
           <Sidebar busstop={busstop} busroute={busroute} />
