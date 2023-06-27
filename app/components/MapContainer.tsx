@@ -2,13 +2,14 @@
 
 import Map from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type {
   MapboxStyle,
   MapRef,
   MapLayerMouseEvent,
   ViewStateChangeEvent,
 } from "react-map-gl";
+import useFlyToStore from "../hooks/useFlyStore";
 
 interface MapContainerProps {
   children: React.ReactNode;
@@ -27,6 +28,17 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
   const onViewportChange = (e: ViewStateChangeEvent) =>
     setViewport(e.viewState);
 
+  const mapRef = useRef<MapRef | null>(null);
+  
+  const { lat, lng } = useFlyToStore();
+
+  useEffect(() => {
+    if (lat && lng && mapRef.current) {
+      const map = mapRef.current.getMap();
+      map?.flyTo({ center: [lng, lat] });
+    }
+  }, [lat, lng]);
+
   return (
     <Map
       {...viewport}
@@ -34,6 +46,7 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
       mapStyle="mapbox://styles/mapbox/streets-v11"
       onMove={onViewportChange}
       mapboxAccessToken={MAPBOX_TOKEN}
+      ref={mapRef}
     >
       {children}
     </Map>

@@ -5,21 +5,29 @@ import ReactSlider from "react-slider";
 import { useCallback, useState } from "react";
 import { SafeStations } from "../types";
 import Steps from "./Steps";
+import useFlyToStore from "@/app/hooks/useFlyStore";
 
 interface ListingBusStopProps {
   listings: SafeStations[];
 }
 
 const ListingBusStop: React.FC<ListingBusStopProps> = ({ listings }) => {
+  const { setCoordinates } = useFlyToStore();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const _handleSliderIndex = (key: number) => {
     setCurrentIndex(key);
   };
 
-  const onStepIndex = useCallback((index: number) => {
-    setCurrentIndex(index);
-  }, []);
+  const onStepIndex = useCallback(
+    (bus: any, index: number) => {
+      const { location } = bus;
+      const { lat: lat, lng: lng } = location;
+      setCoordinates(lat, lng);
+      setCurrentIndex(index);
+    },
+    [setCoordinates]
+  );
 
   return (
     <div className="flex p-5 overflow-y-scroll overflow-x-hidden relative h-[60vh]">

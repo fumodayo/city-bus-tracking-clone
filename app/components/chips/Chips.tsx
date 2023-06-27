@@ -1,59 +1,124 @@
 "use client";
 
+import useNearbySearch from "@/app/hooks/useNearbySearch";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useCallback, useEffect } from "react";
+import { IconType } from "react-icons";
+import {
+  MdOutlineRestaurant,
+  MdLocalCafe,
+  MdStore,
+  MdSchool,
+} from "react-icons/md";
+import qs from "query-string";
+
 const chipItems = [
   {
-    id: "1",
-    icon: "",
+    id: "restaurant",
+    icon: MdOutlineRestaurant,
     name: "Nhà hàng",
-    type: "restaurant",
   },
   {
-    id: "2",
-    icon: "Cà phê",
+    id: "Cafe",
+    icon: MdLocalCafe,
     name: "Cà phê",
   },
   {
-    id: "3",
-    icon: "",
+    id: "store",
+    icon: MdStore,
     name: "Cửa hàng tạp hóa",
   },
   {
-    id: "4",
-    icon: "",
+    id: "education",
+    icon: MdSchool,
     name: "Trường học",
   },
 ];
 
-export const Chip = ({ name }) => {
+interface ChipProps {
+  id: string;
+  name: string;
+  icon: IconType;
+  selected?: boolean;
+}
+
+export const Chip: React.FC<ChipProps> = ({
+  name,
+  id,
+  icon: Icon,
+  selected,
+}) => {
+  const router = useRouter();
+  const params = useSearchParams();
+
+  const handleClick = useCallback(() => {
+    let currentQuery = {};
+
+    if (params) {
+      currentQuery = qs.parse(params.toString());
+    }
+
+    const updatedQuery: any = {
+      ...currentQuery,
+      text: id,
+    };
+
+    if (params?.get("text") === id) {
+      delete updatedQuery.text;
+    }
+
+    const url = qs.stringifyUrl(
+      {
+        url: "/",
+        query: updatedQuery,
+      },
+      { skipNull: true }
+    );
+
+    router.push(url);
+  }, [id, params, router]);
+
   return (
     <div
-      className="
-        bg-white 
-        text-black 
-        text-sm 
-        font-semibold 
+      onClick={handleClick}
+      className={`
         shadow-[0_2px_3px_rgba(0,0,0,0.1607843137254902)] 
         cursor-pointer 
         px-3 
-        py-1.5 
+        py-1.5'
+        mx-1 
         rounded-3xl
         flex
         justify-center 
         items-center 
         w-fit
         h-10
-        "
+        ${selected ? "border-b-neutral-800" : "border-transparent"}
+        ${selected ? "bg-mainColor" : "bg-white"}
+        ${selected ? " text-white" : " text-black"}
+      `}
     >
-      {name}
+      <Icon size={20} />
+      <div className="font-medium text-sm mx-2">{name}</div>
     </div>
   );
 };
 
 const Chips = () => {
+  // const getAll  = useNearbySearch();
+  // console.log(getAll);
+  const params = useSearchParams();
+  const category = params?.get("text");
   return (
     <div className="p-2 flex flex-row">
       {chipItems.map((chip) => (
-        <Chip key={chip.id} name={chip.name} />
+        <Chip
+          key={chip.id}
+          name={chip.name}
+          id={chip.id}
+          icon={chip.icon}
+          selected={category === chip.id}
+        />
       ))}
     </div>
   );

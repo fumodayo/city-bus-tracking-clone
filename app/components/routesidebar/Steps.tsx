@@ -5,7 +5,7 @@ import { SafeStations } from "../types";
 interface StepsProps {
   listings: SafeStations[];
   currentIndex: number;
-  onClick: (index: number) => void;
+  onClick: (bus: SafeStations, index: number) => void;
 }
 
 const Steps: React.FC<StepsProps> = ({ listings, currentIndex, onClick }) => {
@@ -14,7 +14,6 @@ const Steps: React.FC<StepsProps> = ({ listings, currentIndex, onClick }) => {
       {listings.map((bus, index) => {
         let color =
           currentIndex === index ? "text-lg text-blue-500 font-semibold" : null;
-
         return (
           <div
             className={`
@@ -27,7 +26,7 @@ const Steps: React.FC<StepsProps> = ({ listings, currentIndex, onClick }) => {
               ${color}
             `}
             key={index}
-            onClick={() => onClick(index)}
+            onClick={() => onClick(bus, index)}
           >
             {bus.name}
           </div>
