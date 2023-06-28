@@ -11,6 +11,7 @@ import SecondaryTabs from "./SecondaryTabs";
 import ListingRoute from "../listings/ListingRoute";
 
 import { FaBus, FaDirections } from "react-icons/fa";
+import SearchSidebar from "../searchsidebar/SearchSidebar";
 
 interface SidebarProps {
   busstop: SafeStations[];
@@ -31,7 +32,7 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
   }, [open]);
 
   const listingsbusRouteStore = <ListingRoute />;
-  const searchingRoute = <div>Search</div>;
+  const searchingRoute = <SearchSidebar />;
 
   return (
     <div className="flex flex-row relative">
