@@ -7,6 +7,8 @@ import MarkerDraw from "./marker/MarkerDraw";
 import useNearbySearch from "../hooks/useNearbySearch";
 import useFlyToStore from "../hooks/useFlyStore";
 
+import { useMemo } from "react";
+
 const PlaceMarker = () => {
   const params = useSearchParams();
   const category = params?.get("text");

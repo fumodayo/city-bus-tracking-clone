@@ -1,17 +1,19 @@
 "use client";
 
-import useNearbySearch from "@/app/hooks/useNearbySearch";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useEffect, useMemo } from "react";
+import { useCallback } from "react";
 import { IconType } from "react-icons";
 import {
   MdOutlineRestaurant,
   MdLocalCafe,
   MdStore,
   MdSchool,
+  MdBeachAccess,
 } from "react-icons/md";
+import { GiPagoda } from "react-icons/gi";
+import { FaStoreAlt } from "react-icons/fa";
+import { RxColorWheel } from "react-icons/rx";
 import qs from "query-string";
-import MarkerDraw from "../marker/MarkerDraw";
 
 const chipItems = [
   {
@@ -33,6 +35,26 @@ const chipItems = [
     id: "education",
     icon: MdSchool,
     name: "Trường học",
+  },
+  {
+    id: "market",
+    icon: FaStoreAlt,
+    name: "Chợ",
+  },
+  {
+    id: "pagoda",
+    icon: GiPagoda,
+    name: "Chùa",
+  },
+  {
+    id: "amusement park",
+    icon: RxColorWheel,
+    name: "Khu vui chơi",
+  },
+  {
+    id: "beach",
+    icon: MdBeachAccess,
+    name: "Bãi biển",
   },
 ];
 
@@ -108,18 +130,6 @@ export const Chip: React.FC<ChipProps> = ({
 const Chips = () => {
   const params = useSearchParams();
   const category = params?.get("text");
-  // const getNearPlaces = useNearbySearch(category);
-
-  // const places = useMemo(() => {
-  //   getNearPlaces.map((point, index) => (
-  //     <MarkerDraw
-  //       key={index}
-  //       lat={point["lat"]}
-  //       lng={point["lng"]}
-  //       location={point}
-  //     />
-  //   ));
-  // }, [getNearPlaces]);
 
   return (
     <>
