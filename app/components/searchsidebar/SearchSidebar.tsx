@@ -1,11 +1,42 @@
 "use client";
 
+import { useState, useEffect } from "react";
+
 import Image from "next/image";
 
 import { BiSearchAlt2 } from "react-icons/bi";
 import SecondaryTabs from "../sidebar/SecondaryTabs";
+import usePinStartStore from "@/app/hooks/usePinStartStore";
+import axios from "axios";
 
 const SearchSidebar = () => {
+  const {
+    lng: lngStart,
+    lat: latStart,
+    point: pointStart,
+  } = usePinStartStore();
+
+  const [startPointSearch, setStartPointSearch] = useState("");
+
+  useEffect(() => {
+    const fetchStartPoint = async () => {
+      if (lngStart && latStart) {
+        try {
+          const { data } = await axios.get(
+            `https://api.mapbox.com/geocoding/v5/mapbox.places/${lngStart},${latStart}.json?types=poi&access_token=pk.eyJ1IjoidGhhaXJ5byIsImEiOiJjbDdjb2ZnY3QxM2F6M3FtaW9zMDFpNWkzIn0.tPFJvhG-HJ0TdmJGolVjHA&language=vi`
+          );
+          const placeName = data.features[0].place_name;
+          setStartPointSearch(placeName);
+        } catch (error) {
+          console.error("Error fetching start point:", error);
+        }
+      }
+    };
+
+    fetchStartPoint();
+  }, [latStart, lngStart]);
+  console.log(startPointSearch);
+
   return (
     <div>
       <div
@@ -31,6 +62,8 @@ const SearchSidebar = () => {
             alt="markderred"
           />
           <input
+            value={startPointSearch}
+            onChange={(e) => setStartPointSearch(e.target.value)}
             className="w-full mx-2 focus:outline-none"
             placeholder="Nhập địa điểm xuất phát, hoặc click lên màn hình"
           />
@@ -40,7 +73,13 @@ const SearchSidebar = () => {
         </div>
         <div className="flex flex-row">
           <div className="w-[300px] h-[1px] ml-8 my-4 bg-gray-300" />
-          <Image className="ml-2 z-3" src="/swap.png" width={30} height={30} alt="swap" />
+          <Image
+            className="ml-2 z-3"
+            src="/swap.png"
+            width={30}
+            height={30}
+            alt="swap"
+          />
         </div>
         <div className="w-full bg-[white] rounded text-left px-4 py-0 flex flex-row">
           <Image

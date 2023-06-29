@@ -59,7 +59,6 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
     [params, clickCount, setlngLatStart, setlngLatEnd]
   );
 
-  console.log(clickCount);
 
   return (
     <Map
