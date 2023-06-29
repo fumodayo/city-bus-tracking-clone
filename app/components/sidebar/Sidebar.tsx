@@ -55,6 +55,7 @@ const Sidebar: React.FC<SidebarProps> = ({ busstop, busroute }) => {
             secondaryHeadingTabContent={searchingRoute}
             iconFirst={FaBus}
             iconSecond={FaDirections}
+            isSidebarType
           />
         </div>
       )}

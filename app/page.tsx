@@ -8,6 +8,7 @@ import MapMarker from "./components/MapMarker";
 import PlaceMarker from "./components/PlaceMarker";
 
 import Chips from "./components/chips/Chips";
+import MarkerPin from "./components/marker/MarkerPin";
 import RouteSidebar from "./components/routesidebar/RouteSidebar";
 import Sidebar from "./components/sidebar/Sidebar";
 import ToastProvider from "./providers/ToastProvider";
@@ -24,6 +25,7 @@ const Home = async () => {
         <MapMarker />
         <MapDraw />
         <PlaceMarker />
+        <MarkerPin />
         <div className="flex flex-row">
           <Sidebar busstop={busstop} busroute={busroute} />
           <Chips />

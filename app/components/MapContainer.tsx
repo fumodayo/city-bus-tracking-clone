@@ -2,12 +2,12 @@
 
 import Map from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { useEffect, useRef, useState } from "react";
-import type {
-  MapRef,
-  ViewStateChangeEvent,
-} from "react-map-gl";
+import { useCallback, useEffect, useRef, useState, useMemo } from "react";
+import type { MapRef, ViewStateChangeEvent } from "react-map-gl";
 import useFlyToStore from "../hooks/useFlyStore";
+import usePinStartStore from "../hooks/usePinStartStore";
+import usePinEndStore from "../hooks/usePinEndStore";
+import { useSearchParams } from "next/navigation";
 
 interface MapContainerProps {
   children: React.ReactNode;
@@ -27,7 +27,11 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
     setViewport(e.viewState);
 
   const mapRef = useRef<MapRef | null>(null);
-  
+
+  const { setlngLatStart } = usePinStartStore();
+  const { setlngLatEnd } = usePinEndStore();
+  const [clickCount, setClickCount] = useState(0);
+
   const { lat, lng } = useFlyToStore();
 
   useEffect(() => {
@@ -37,6 +41,26 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
     }
   }, [lat, lng]);
 
+  const params = useSearchParams();
+
+  const handleAddClick = useCallback(
+    (e: any) => {
+      const type = params?.get("type");
+      const { lat, lng } = e.lngLat;
+      if (type === "direction") {
+        setClickCount((prevClickCount) => prevClickCount + 1);
+        if (clickCount % 2 === 0) {
+          setlngLatStart(lat, lng);
+        } else if ((clickCount + 1) % 2 === 0) {
+          setlngLatEnd(lat, lng);
+        }
+      }
+    },
+    [params, clickCount, setlngLatStart, setlngLatEnd]
+  );
+
+  console.log(clickCount);
+
   return (
     <Map
       {...viewport}
@@ -45,6 +69,7 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
       onMove={onViewportChange}
       mapboxAccessToken={MAPBOX_TOKEN}
       ref={mapRef}
+      onDblClick={handleAddClick}
     >
       {children}
     </Map>

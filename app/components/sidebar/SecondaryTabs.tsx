@@ -4,6 +4,9 @@ import { useState } from "react";
 
 import { IconType } from "react-icons";
 
+import qs from "query-string";
+import { useRouter } from "next/navigation";
+
 enum OPTIONS {
   TAB_1 = 0,
   TAB_2 = 1,
@@ -16,6 +19,7 @@ interface SecondaryTabsProps {
   secondaryHeadingTabContent?: React.ReactNode;
   iconFirst?: IconType;
   iconSecond?: IconType;
+  isSidebarType?: boolean;
 }
 
 const SecondaryTabs: React.FC<SecondaryTabsProps> = ({
@@ -25,15 +29,47 @@ const SecondaryTabs: React.FC<SecondaryTabsProps> = ({
   secondaryHeadingTabContent,
   iconFirst: IconFirst,
   iconSecond: IconSecond,
+  isSidebarType,
 }) => {
   const [step, setStep] = useState(OPTIONS.TAB_1);
+  const router = useRouter();
 
   const onChooseTAB_1 = () => {
     setStep(OPTIONS.TAB_1);
+    if (isSidebarType) {
+      const updatedQuery: any = {
+        ["type"]: "route",
+      };
+
+      const url = qs.stringifyUrl(
+        {
+          url: "/",
+          query: updatedQuery,
+        },
+        { skipNull: true }
+      );
+
+      router.push(url);
+    }
   };
 
   const onChooseTAB_2 = () => {
     setStep(OPTIONS.TAB_2);
+    if (isSidebarType) {
+      const updatedQuery: any = {
+        ["type"]: "direction",
+      };
+
+      const url = qs.stringifyUrl(
+        {
+          url: "/",
+          query: updatedQuery,
+        },
+        { skipNull: true }
+      );
+
+      router.push(url);
+    }
   };
 
   let bodyContent = headingTabContent;
