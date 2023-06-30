@@ -8,6 +8,7 @@ export type SafeRoutes = {
 };
 
 export type SafeStations = {
+  id?: string;
   code?: string;
   color?: string;
   name: string | null;

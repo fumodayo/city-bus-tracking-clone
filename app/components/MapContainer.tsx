@@ -7,6 +7,7 @@ import type { MapRef, ViewStateChangeEvent } from "react-map-gl";
 import useFlyToStore from "../hooks/useFlyStore";
 import { useSearchParams } from "next/navigation";
 import usePinStore from "../hooks/usePinStore";
+import { useLocationNear } from "../hooks/useDirection";
 
 interface MapContainerProps {
   children: React.ReactNode;
@@ -60,6 +61,8 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
     },
     [params, setLngLatStart, setLngLatEnd, latStart, lngStart, lngEnd, latEnd]
   );
+
+  console.log(useLocationNear());
 
   return (
     <Map
