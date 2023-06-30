@@ -8,6 +8,7 @@ import { BiSearchAlt2 } from "react-icons/bi";
 import SecondaryTabs from "../sidebar/SecondaryTabs";
 import usePinStartStore from "@/app/hooks/usePinStartStore";
 import axios from "axios";
+import usePinEndStore from "@/app/hooks/usePinEndStore";
 
 const SearchSidebar = () => {
   const {
@@ -16,7 +17,10 @@ const SearchSidebar = () => {
     point: pointStart,
   } = usePinStartStore();
 
+  const { lng: lngEnd, lat: latEnd } = usePinEndStore();
+
   const [startPointSearch, setStartPointSearch] = useState("");
+  const [endPointSearch, setEndPointSearch] = useState("");
 
   useEffect(() => {
     const fetchStartPoint = async () => {
@@ -33,9 +37,22 @@ const SearchSidebar = () => {
       }
     };
 
+    const fetchEndPoint = async () => {
+      if (lngEnd && latEnd) {
+        try {
+          const { data } = await axios.get(
+            `https://api.mapbox.com/geocoding/v5/mapbox.places/${lngEnd},${latEnd}.json?types=poi&access_token=pk.eyJ1IjoidGhhaXJ5byIsImEiOiJjbDdjb2ZnY3QxM2F6M3FtaW9zMDFpNWkzIn0.tPFJvhG-HJ0TdmJGolVjHA&language=vi`
+          );
+          const placeName = data.features[0].place_name;
+          setEndPointSearch(placeName);
+        } catch (error) {
+          console.error("Error fetching start point:", error);
+        }
+      }
+    };
     fetchStartPoint();
-  }, [latStart, lngStart]);
-  console.log(startPointSearch);
+    fetchEndPoint();
+  }, [latStart, lngStart, latEnd, lngEnd]);
 
   return (
     <div>
@@ -89,6 +106,8 @@ const SearchSidebar = () => {
             alt="markerblue"
           />
           <input
+            value={endPointSearch}
+            onChange={(e) => setEndPointSearch(e.target.value)}
             className="w-full mx-2 focus:outline-none"
             placeholder="Nhập địa điểm kết thúc, hoặc click lên màn hình"
           />
