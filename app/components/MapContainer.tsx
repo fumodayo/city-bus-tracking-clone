@@ -12,9 +12,6 @@ interface MapContainerProps {
   children: React.ReactNode;
 }
 
-const MAPBOX_TOKEN =
-  "pk.eyJ1IjoidGhhaXJ5byIsImEiOiJjbDdjb2ZnY3QxM2F6M3FtaW9zMDFpNWkzIn0.tPFJvhG-HJ0TdmJGolVjHA";
-
 const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
   const [viewport, setViewport] = useState({
     latitude: 16.06045710530602,
@@ -70,7 +67,7 @@ const MapContainer: React.FC<MapContainerProps> = ({ children }) => {
       style={{ width: "100vw", height: "100vh" }}
       mapStyle="mapbox://styles/mapbox/streets-v11"
       onMove={onViewportChange}
-      mapboxAccessToken={MAPBOX_TOKEN}
+      mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_KEY}
       ref={mapRef}
       onDblClick={handleAddClick}
     >

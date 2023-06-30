@@ -28,7 +28,7 @@ const PinInput: React.FC<PinInputProps> = ({
       if (lng && lat) {
         try {
           const { data } = await axios.get(
-            `https://api.mapbox.com/geocoding/v5/mapbox.places/${lng},${lat}.json?types=poi&access_token=pk.eyJ1IjoidGhhaXJ5byIsImEiOiJjbDdjb2ZnY3QxM2F6M3FtaW9zMDFpNWkzIn0.tPFJvhG-HJ0TdmJGolVjHA&language=vi`
+            `https://api.mapbox.com/geocoding/v5/mapbox.places/${lng},${lat}.json?types=poi&access_token=${process.env.NEXT_PUBLIC_MAPBOX_KEY}&language=vi`
           );
           const placeName = data.features[0].place_name;
           setAddress(placeName);
