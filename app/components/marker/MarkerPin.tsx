@@ -6,18 +6,13 @@ import { Marker } from "react-map-gl";
 import MarkerRed from "./MarkerRed";
 import MarkerBlue from "./MarkerBlue";
 
-import usePinStartStore from "@/app/hooks/usePinStartStore";
-import usePinEndStore from "@/app/hooks/usePinEndStore";
+import usePinStore from "@/app/hooks/usePinStore";
 
 import { useSearchParams } from "next/navigation";
 
 const MarkerPin = () => {
-  const {
-    lng: lngStart,
-    lat: latStart,
-    point: pointStart,
-  } = usePinStartStore();
-  const { lng: lngEnd, lat: latEnd, point: pointEnd } = usePinEndStore();
+  const { lng: lngStart, lat: latStart } = usePinStore((state) => state.start);
+  const { lng: lngEnd, lat: latEnd } = usePinStore((state) => state.end);
 
   const params = useSearchParams();
   const type = params?.get("type");
