@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         primaryColor: "#f1faf6",
         mainColor: "#3597e4",
+        secondaryColor: "#8fbc8f",
         codeLK01: "#ff1500",
         codeR15: "#7d0606",
         codeR16: "#071a82",

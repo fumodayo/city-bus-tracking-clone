@@ -67,7 +67,7 @@ const SecondaryTabs: React.FC<SecondaryTabsProps> = ({
         },
         { skipNull: true }
       );
-
+      
       router.push(url);
     }
   };

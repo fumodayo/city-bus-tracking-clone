@@ -7,19 +7,23 @@ import { isPointInPolygon } from "../utils/isPointInPolygon";
 type Direction = {
   distance?: number;
   duration?: number;
-  coordinates?: number[];
+  coordinates?: [];
   steps?: Object;
 };
 
-const useDirection = () => {
+const useDirection = (
+  type: string,
+  lngStart: number | null,
+  latStart: number | null,
+  lngEnd: number | null,
+  latEnd: number | null
+) => {
   const [direction, setDirection] = useState<Direction | null>(null);
-  const { lng: lngStart, lat: latStart } = usePinStore((state) => state.start);
-  const { lng: lngEnd, lat: latEnd } = usePinStore((state) => state.end);
   useEffect(() => {
     const fetchDirection = async () => {
       if (lngStart && latStart && lngEnd && latEnd) {
         const { data } = await axios.get(
-          `https://api.mapbox.com/directions/v5/mapbox/walking/${lngStart},${latStart};${lngEnd},${latEnd}?steps=true&geometries=geojson&access_token=${process.env.NEXT_PUBLIC_MAPBOX_KEY}&language=vi`
+          `https://api.mapbox.com/directions/v5/mapbox/${type}/${lngStart},${latStart};${lngEnd},${latEnd}?steps=true&geometries=geojson&access_token=${process.env.NEXT_PUBLIC_MAPBOX_KEY}&language=vi`
         );
         const dir: Direction = {};
         dir.distance = data.routes[0].distance;
@@ -35,11 +39,11 @@ const useDirection = () => {
       }
     };
     fetchDirection();
-  }, [lngStart, latStart, lngEnd, latEnd]);
+  }, [type, lngStart, latStart, lngEnd, latEnd]);
   return direction;
 };
 
-const useLocationNear = () => {
+const useLocationNear = (lng: number | null, lat: number | null) => {
   /**
    * Step 1: Create polygon at "start" point
    * Step 2: Find bus stops inside polygon using ray-casting algorithm
@@ -47,20 +51,19 @@ const useLocationNear = () => {
    */
   const [location, setLocation] = useState<any | null>(null);
   const busstore = useBusStopStore();
-  const { lng: lngStart, lat: latStart } = usePinStore((state) => state.start);
   useEffect(() => {
-    if (lngStart && latStart) {
+    if (lng && lat) {
       const handleLocationNear = async () => {
         // Step 1
         const { data } = await axios.get(
-          `https://api.mapbox.com/isochrone/v1/mapbox/walking/${lngStart}%2C${latStart}?contours_meters=1000&polygons=true&denoise=1&access_token=${process.env.NEXT_PUBLIC_MAPBOX_KEY}`
+          `https://api.mapbox.com/isochrone/v1/mapbox/walking/${lng}%2C${lat}?contours_meters=1000&polygons=true&denoise=1&access_token=${process.env.NEXT_PUBLIC_MAPBOX_KEY}`
         );
         const polygon = data.features[0].geometry.coordinates[0];
 
         const covertLocationBusStopInArray = busstore.busstopStore.map(
-          (bus) => ({
-            id: bus.id,
-            location: [bus.location.lng, bus.location.lat],
+          (point) => ({
+            point,
+            location: [point.location.lng, point.location.lat],
           })
         );
 
@@ -73,7 +76,7 @@ const useLocationNear = () => {
         let total = [];
         for (let point = 0; point < listPointsInPolygon.length - 1; point++) {
           const { data } = await axios.get(
-            `https://api.mapbox.com/directions/v5/mapbox/walking/${lngStart},${latStart};${
+            `https://api.mapbox.com/directions/v5/mapbox/walking/${lng},${lat};${
               listPointsInPolygon[point].location
             },${
               listPointsInPolygon[point + 1].location
@@ -82,7 +85,7 @@ const useLocationNear = () => {
             }&language=vi`
           );
           total.push({
-            id: listPointsInPolygon[point].id,
+            ...listPointsInPolygon[point],
             distance: data.routes[0].distance,
           });
         }
@@ -100,8 +103,134 @@ const useLocationNear = () => {
       };
       handleLocationNear();
     }
-  }, [lngStart, latStart]);
+  }, [lng, lat]);
   return location;
 };
 
-export { useDirection, useLocationNear };
+const useFindBusStopNear = () => {
+  const { lng: lngStart, lat: latStart } = usePinStore((state) => state.start);
+  const { lng: lngEnd, lat: latEnd } = usePinStore((state) => state.end);
+
+  const busstore = useBusStopStore();
+
+  const locationNearStart = useLocationNear(lngStart, latStart);
+  let latPointStart, lngPointStart;
+
+  if (locationNearStart) {
+    const [lng, lat] = locationNearStart.location;
+    latPointStart = lat;
+    lngPointStart = lng;
+  }
+
+  const locationNearEnd = useLocationNear(lngEnd, latEnd);
+  let latPointEnd, lngPointEnd;
+
+  if (locationNearEnd) {
+    const [lng, lat] = locationNearEnd.location;
+    latPointEnd = lat;
+    lngPointEnd = lng;
+  }
+
+  const walkingStart = useDirection(
+    "walking",
+    lngStart,
+    latStart,
+    lngPointStart,
+    latPointStart
+  );
+
+  const walkingEnd = useDirection(
+    "walking",
+    lngEnd,
+    latEnd,
+    lngPointEnd,
+    latPointEnd
+  );
+
+  const route = useDirection(
+    "driving",
+    lngPointStart,
+    latPointStart,
+    lngPointEnd,
+    latPointEnd
+  );
+
+  let coordinates: [] = [];
+  if (
+    walkingStart?.coordinates &&
+    walkingEnd?.coordinates &&
+    route?.coordinates &&
+    latStart &&
+    lngStart &&
+    latEnd &&
+    lngEnd
+  ) {
+    coordinates = [
+      ...walkingStart?.coordinates,
+      ...route?.coordinates,
+      ...walkingEnd?.coordinates,
+    ];
+  }
+
+  const calculateDistance = (lat1: any, lon1: any, lat2: any, lon2: any) => {
+    function toRadians(degrees: any) {
+      return degrees * (Math.PI / 180);
+    }
+    const R = 6371; // Bán kính Trái Đất trong km
+    const dLat = toRadians(lat2 - lat1);
+    const dLon = toRadians(lon2 - lon1);
+    const a =
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(toRadians(lat1)) *
+        Math.cos(toRadians(lat2)) *
+        Math.sin(dLon / 2) *
+        Math.sin(dLon / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    const distance = R * c * 1000; // Covert distance to meters
+    return distance;
+  };
+
+  const nearestStops = coordinates.map((point) => {
+    let minDistance = Infinity;
+    let nearestStop = null;
+    const maxDistanceThreshold = 50; // Maximum distance threshold in m
+
+    for (const stop of busstore.busstopStore) {
+      const distance = calculateDistance(
+        point[1],
+        point[0],
+        stop.location.lat,
+        stop.location.lng
+      );
+      if (distance < minDistance && distance <= maxDistanceThreshold) {
+        minDistance = distance;
+        nearestStop = stop;
+      }
+    }
+
+    return nearestStop;
+  });
+
+  const filteredStops = nearestStops.filter((stop, index, self) => {
+    // Lọc các object null
+    if (stop === null) {
+      return false;
+    }
+
+    // Lọc các object giống nhau
+    const indexInNearestStops = self.findIndex((s) => s === stop);
+    return index === indexInNearestStops;
+  });
+
+  return {
+    locationNearStart,
+    locationNearEnd,
+    walkingStart,
+    route,
+    walkingEnd,
+    coordinates,
+    filteredStops,
+  };
+};
+
+export { useDirection, useLocationNear, useFindBusStopNear };

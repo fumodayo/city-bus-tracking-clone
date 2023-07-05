@@ -3,7 +3,7 @@ import { Source, Layer } from "react-map-gl";
 import { Feature, LineString, Position } from "geojson";
 
 interface RoadDrawProps {
-  coordinates: [];
+  coordinates: [] | undefined;
   color: string;
 }
 

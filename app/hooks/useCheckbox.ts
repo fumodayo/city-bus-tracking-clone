@@ -3,6 +3,7 @@ import { create } from "zustand";
 interface CheckboxStore {
   routeCodes: Array<string>;
   checkedCode: (code: string) => void;
+  resetCheckedCode: () => void;
 }
 
 const useCheckboxStore = create<CheckboxStore>((set, get) => ({
@@ -15,6 +16,7 @@ const useCheckboxStore = create<CheckboxStore>((set, get) => ({
       set({ routeCodes: [...routesCodes, code] });
     }
   },
+  resetCheckedCode: () => set({ routeCodes: [] }),
 }));
 
 export default useCheckboxStore;

@@ -3,9 +3,15 @@
 import RoadDraw from "./RoadDraw";
 
 import { useFilteredPath } from "../hooks/useFilter";
+import { useFindBusStopNear } from "../hooks/useDirection";
+import { useSearchParams } from "next/navigation";
 
 const MapDraw = () => {
   const filteredRoad = useFilteredPath();
+  const { coordinates } = useFindBusStopNear();
+
+  const params = useSearchParams();
+  const type = params?.get("type") === "direction";
 
   return (
     <div>
@@ -16,6 +22,9 @@ const MapDraw = () => {
           coordinates={route.line}
         />
       ))}
+      {type && coordinates && (
+        <RoadDraw color="#429f5d" coordinates={coordinates} />
+      )}
     </div>
   );
 };

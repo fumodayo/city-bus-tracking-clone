@@ -9,16 +9,16 @@ import Place from "./Place";
 import { SafeStations } from "../types";
 
 interface MarkerDrawProps {
-  lat: number;
-  lng: number;
-  location: SafeStations;
+  lat: number | undefined;
+  lng: number | undefined;
+  location: SafeStations | null;
   isPlace?: boolean;
 }
 
 const MarkerDraw: React.FC<MarkerDrawProps> = ({
-  lat,
-  lng,
-  location,
+  lat = 0,
+  lng = 0,
+  location = null,
   isPlace,
 }) => {
   const [showPopup, setShowPopup] = useState(false);
@@ -69,10 +69,12 @@ const MarkerDraw: React.FC<MarkerDrawProps> = ({
             font-bold
           "
         >
-          {location.name && (
+          {location?.name && (
             <div className="text-sm font-bold">{location.name}</div>
           )}
-          <div className="text-sm font-normal">{location.address}</div>
+          {location?.address && (
+            <div className="text-sm font-normal">{location.address}</div>
+          )}
         </Popup>
       )}
     </div>
