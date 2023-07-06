@@ -19,11 +19,8 @@ const SearchSidebar = () => {
     walkingStart,
     route,
     walkingEnd,
-    coordinates,
     filteredStops,
   } = useFindBusStopNear();
-
-  console.log(walkingStart);
 
   const {
     lng: lngStart,
@@ -51,7 +48,7 @@ const SearchSidebar = () => {
         inline-block 
         overflow-y-scroll
         overflow-x-hidden
-        h-[50vh]
+        h-[30vh]
         shadow-[0px_0px_7px_2px_rgba(0,0,0,0.15)] 
         bg-white 
         relative 
@@ -64,9 +61,27 @@ const SearchSidebar = () => {
         rounded-[15px]
       "
     >
-      <RouterLegStep type="start" icon={BiWalk} />
-      <RouterLegStep type="bus" icon={FaBus} />
-      <RouterLegStep type="end" icon={BiWalk} />
+      <RouterLegStep
+        locationNearStart={locationNearStart}
+        locationNearEnd={locationNearEnd}
+        walkingStart={walkingStart}
+        type="start"
+        icon={BiWalk}
+      />
+      <RouterLegStep
+        locationNearStart={locationNearStart}
+        locationNearEnd={locationNearEnd}
+        route={route}
+        type="bus"
+        icon={FaBus}
+      />
+      <RouterLegStep
+        locationNearStart={locationNearStart}
+        locationNearEnd={locationNearEnd}
+        walkingEnd={walkingEnd}
+        type="end"
+        icon={BiWalk}
+      />
     </div>
   );
 

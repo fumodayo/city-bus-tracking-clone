@@ -7,10 +7,154 @@ import { useState } from "react";
 interface RouterLegStepProps {
   type?: string;
   icon: IconType;
+  locationNearStart?: {
+    point: any;
+  };
+  locationNearEnd?: {
+    point: any;
+  };
+  route?: any;
+  walkingStart?: any;
+  walkingEnd?: any;
 }
 
-const RouterLegStep: React.FC<RouterLegStepProps> = ({ icon: Icon, type }) => {
+const RouterLegStep: React.FC<RouterLegStepProps> = ({
+  icon: Icon,
+  type,
+  locationNearStart,
+  locationNearEnd,
+  route,
+  walkingStart,
+  walkingEnd,
+}) => {
   const [open, setOpen] = useState(true);
+
+  let content = <div></div>;
+
+  if (type === "start") {
+    content = (
+      <div>
+        <span className="text-base font-semibold">
+          Điểm bắt đầu đi bộ đến trạm {locationNearStart?.point.name}
+        </span>
+        <p className="text-sm text-gray-400">
+          Trạm {locationNearStart?.point.name}
+        </p>
+        <div className="cursor-pointer mx-5 my-2">
+          <div onClick={() => setOpen(!open)} className="flex flex-row">
+            {open ? (
+              <IoIosArrowDown size={20} />
+            ) : (
+              <IoIosArrowForward size={20} />
+            )}
+            <div className="text-sm">
+              <p className="font-semibold">Chi tiết</p>
+              <p className="my-1 text-gray-500">
+                {walkingStart?.distance}m {`(${walkingStart?.duration})`}
+              </p>
+            </div>
+          </div>
+          {open && (
+            <div>
+              {walkingStart?.steps.map((step: any, index: number) => (
+                <div className="ml-10 my-2" key={index}>
+                  <div className="text-sm text-mainColor font-semibold">
+                    {step.name}
+                  </div>
+                  <span className="ml-10 my-3 text-gray-500 text-sm">
+                    {step?.distance}m {`(${step?.duration})`}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+
+  if (type === "end") {
+    content = (
+      <div>
+        <span className="text-base font-semibold">
+          Xuống trạm {locationNearEnd?.point.name} đi bộ tới điểm đích
+        </span>
+        <p className="text-sm text-gray-400">
+          Trạm {locationNearEnd?.point.name}
+        </p>
+        <div className="cursor-pointer mx-5 my-2">
+          <div onClick={() => setOpen(!open)} className="flex flex-row">
+            {open ? (
+              <IoIosArrowDown size={20} />
+            ) : (
+              <IoIosArrowForward size={20} />
+            )}
+            <div className="text-sm">
+              <p className="font-semibold">Chi tiết</p>
+              <p className="my-1 text-gray-500">
+                {walkingEnd?.distance}m {`(${walkingEnd?.duration})`}
+              </p>
+            </div>
+          </div>
+          {open && (
+            <div>
+              {walkingEnd?.steps.map((step: any, index: number) => (
+                <div className="ml-10 my-2" key={index}>
+                  <div className="text-sm text-mainColor font-semibold">
+                    {step.name}
+                  </div>
+                  <span className="ml-10 my-3 text-gray-500 text-sm">
+                    {step?.distance}m {`(${step?.duration})`}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+
+  if (type === "bus") {
+    content = (
+      <div>
+        <span className="text-base font-semibold">
+          Đi xe bus từ trạm {locationNearStart?.point.name} đến trạm{" "}
+          {locationNearEnd?.point.name}
+        </span>
+        <p className="text-sm text-gray-400">
+          Trạm {locationNearStart?.point.name} {"->"} Trạm{" "}
+          {locationNearEnd?.point.name}
+        </p>
+        <div className="cursor-pointer mx-5 my-2">
+          <div onClick={() => setOpen(!open)} className="flex flex-row">
+            {open ? (
+              <IoIosArrowDown size={20} />
+            ) : (
+              <IoIosArrowForward size={20} />
+            )}
+            <div className="text-sm">
+              <p className="font-semibold">Chi tiết</p>
+              <p className="my-1 text-gray-500">
+                {route?.distance}m {`(${route?.duration})`}
+              </p>
+            </div>
+          </div>
+          {open && (
+            <div className="ml-10 my-2">
+              <div className="text-sm text-mainColor font-semibold">
+                Đi từ: Trạm {locationNearStart?.point.name} đến trạm{" "}
+                {locationNearEnd?.point.name}
+              </div>
+              <span className="ml-10 my-3 text-gray-500 text-sm">
+                {route?.distance}m
+              </span>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -23,64 +167,7 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({ icon: Icon, type }) => {
       <div>
         <Icon className="mr-2" size={40} />
       </div>
-      <div>
-        {type === "start" && (
-          <div>
-            <span className="text-base font-semibold">
-              Điểm bắt đầu đi bộ đến trạm 322 Đống Đa
-            </span>
-            <p className="text-sm text-gray-400">Trạm 322 Đống Đa</p>
-          </div>
-        )}
-        {type === "end" && (
-          <div>
-            <span className="text-base font-semibold">
-              Xuống trạm Siêu thị Nguyễn Kim đi bộ tới điểm đích
-            </span>
-            <p className="text-sm text-gray-400">Trạm 322 Đống Đa</p>
-          </div>
-        )}
-        {type === "bus" && (
-          <div>
-            <span className="text-base font-semibold">
-              Đi xe bus từ trạm Đối diện 59 Hùng Vương đến trạm 10 Lý Thái Tổ
-            </span>
-            <p className="text-sm text-gray-400">
-              Trạm 322 Đống Đa {"->"} Trạm 10 Lý Thái Tổ
-            </p>
-          </div>
-        )}
-        <div className="cursor-pointer mx-5 my-2">
-          <div onClick={() => setOpen(!open)} className="flex flex-row">
-            {open ? (
-              <IoIosArrowDown size={20} />
-            ) : (
-              <IoIosArrowForward size={20} />
-            )}
-            <div className="text-sm">
-              <p className="font-semibold">Chi tiết</p>
-              <p className="my-1 text-gray-500">6 phút 22 giây</p>
-            </div>
-          </div>
-          {open && type !== "bus" && (
-            <div className="ml-10 my-2">
-              <div className="text-sm text-mainColor font-semibold">
-                Tiếp tục
-              </div>
-              <span className="ml-10 my-3 text-gray-500 text-sm">17.704m</span>
-            </div>
-          )}
-          {open && type === "bus" && (
-            <div className="ml-10 my-2">
-              <div className="text-sm text-mainColor font-semibold">
-                Đi từ: Trạm 102 Nguyễn Thị Minh Khai đến trạm 51 Nguyễn Thị Minh
-                Khai
-              </div>
-              <span className="ml-10 my-3 text-gray-500 text-sm">20m</span>
-            </div>
-          )}
-        </div>
-      </div>
+      <div>{content}</div>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import usePinStore from "./usePinStore";
 import axios from "axios";
 import useBusStopStore from "./useBusstop";
 import { isPointInPolygon } from "../utils/isPointInPolygon";
+import { calculateDistance } from "../utils/calculateDistance";
 
 type Direction = {
   distance?: number;
@@ -171,24 +172,6 @@ const useFindBusStopNear = () => {
       ...walkingEnd?.coordinates,
     ];
   }
-
-  const calculateDistance = (lat1: any, lon1: any, lat2: any, lon2: any) => {
-    function toRadians(degrees: any) {
-      return degrees * (Math.PI / 180);
-    }
-    const R = 6371; // Bán kính Trái Đất trong km
-    const dLat = toRadians(lat2 - lat1);
-    const dLon = toRadians(lon2 - lon1);
-    const a =
-      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-      Math.cos(toRadians(lat1)) *
-        Math.cos(toRadians(lat2)) *
-        Math.sin(dLon / 2) *
-        Math.sin(dLon / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    const distance = R * c * 1000; // Covert distance to meters
-    return distance;
-  };
 
   const nearestStops = coordinates.map((point) => {
     let minDistance = Infinity;
