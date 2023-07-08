@@ -19,7 +19,7 @@ const SearchSidebar = () => {
     walkingStart,
     route,
     walkingEnd,
-    filteredStops,
+    busStopsNearestRoad,
   } = useFindBusStopNear();
 
   const {
@@ -43,49 +43,64 @@ const SearchSidebar = () => {
   };
 
   const listBusStopInRoute = (
-    <div
-      className="
-        inline-block 
-        overflow-y-scroll
-        overflow-x-hidden
-        h-[30vh]
-        shadow-[0px_0px_7px_2px_rgba(0,0,0,0.15)] 
-        bg-white 
-        relative 
-        transition-all 
-        duration-[2s] 
-        ease-[ease] 
-        m-4 
-        px-0 
-        py-2.5 
-        rounded-[15px]
+    <div>
+      {lngStart &&
+      latStart &&
+      lngEnd &&
+      latEnd &&
+      locationNearStart &&
+      locationNearEnd &&
+      walkingStart &&
+      route &&
+      walkingEnd &&
+      busStopsNearestRoad ? (
+        <div
+          className="
+            inline-block 
+            overflow-y-scroll
+            overflow-x-hidden
+            h-[30vh]
+            shadow-[0px_0px_7px_2px_rgba(0,0,0,0.15)] 
+            bg-white 
+            relative 
+            transition-all 
+            duration-[2s] 
+            ease-[ease] 
+            m-4 
+            px-0 
+            py-2.5 
+            rounded-[15px]
       "
-    >
-      <RouterLegStep
-        locationNearStart={locationNearStart}
-        locationNearEnd={locationNearEnd}
-        walkingStart={walkingStart}
-        type="start"
-        icon={BiWalk}
-      />
-      <RouterLegStep
-        locationNearStart={locationNearStart}
-        locationNearEnd={locationNearEnd}
-        route={route}
-        type="bus"
-        icon={FaBus}
-      />
-      <RouterLegStep
-        locationNearStart={locationNearStart}
-        locationNearEnd={locationNearEnd}
-        walkingEnd={walkingEnd}
-        type="end"
-        icon={BiWalk}
-      />
+        >
+          <RouterLegStep
+            locationNearStart={locationNearStart}
+            locationNearEnd={locationNearEnd}
+            walkingStart={walkingStart}
+            type="start"
+            icon={BiWalk}
+          />
+          <RouterLegStep
+            locationNearStart={locationNearStart}
+            locationNearEnd={locationNearEnd}
+            route={route}
+            type="bus"
+            icon={FaBus}
+          />
+          <RouterLegStep
+            locationNearStart={locationNearStart}
+            locationNearEnd={locationNearEnd}
+            walkingEnd={walkingEnd}
+            type="end"
+            icon={BiWalk}
+          />
+        </div>
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 
-  const routeInfo = <ListingBusStop listings={filteredStops} />;
+  const routeInfo = <ListingBusStop listings={busStopsNearestRoad} />;
 
   return (
     <div>

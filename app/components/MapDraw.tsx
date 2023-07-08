@@ -15,14 +15,15 @@ const MapDraw = () => {
 
   return (
     <div>
-      {filteredRoad.map((route: any) => (
-        <RoadDraw
-          key={route.codeRoute}
-          color={route.color}
-          coordinates={route.line}
-        />
-      ))}
-      {type && coordinates && (
+      {!type &&
+        filteredRoad.map((route: any) => (
+          <RoadDraw
+            key={route.codeRoute}
+            color={route.color}
+            coordinates={route.line}
+          />
+        ))}
+      {type && coordinates.length > 0 && (
         <RoadDraw color="#429f5d" coordinates={coordinates} />
       )}
     </div>

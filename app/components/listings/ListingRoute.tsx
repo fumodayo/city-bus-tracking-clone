@@ -19,7 +19,7 @@ const ListingRoute = () => {
         py-2
         flex
         flex-col
-        h-[60vh]
+        h-[80vh]
         overflow-y-scroll
         overflow-x-hidden
       "

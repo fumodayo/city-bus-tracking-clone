@@ -10,19 +10,18 @@ interface StepsProps {
 
 const Steps: React.FC<StepsProps> = ({ listings, currentIndex, onClick }) => {
   return (
-    <div className="text-base font-medium">
+    <div className="text-base font-semibold flex flex-col max-w-[250px]">
       {listings.map((bus, index) => {
         let color =
-          currentIndex === index ? "text-lg text-blue-500 font-semibold" : null;
+          currentIndex === index ? "text-base text-blue-500 font-semibold" : null;
         return (
           <div
-            className={`
-              border-b-2 
-              my-[32.5px] 
-              first:m-0 
-              hover:text-lg 
+            className={` 
               hover:text-blue-500 
-              hover:font-semibold
+              flex 
+              min-h-[30px]
+              mb-5
+              border-b-2
               ${color}
             `}
             key={index}

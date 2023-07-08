@@ -4,6 +4,7 @@ import axios from "axios";
 import useBusStopStore from "./useBusstop";
 import { isPointInPolygon } from "../utils/isPointInPolygon";
 import { calculateDistance } from "../utils/calculateDistance";
+import { SafeStations } from "../components/types";
 
 type Direction = {
   distance?: number;
@@ -173,37 +174,33 @@ const useFindBusStopNear = () => {
     ];
   }
 
-  const nearestStops = coordinates.map((point) => {
-    let minDistance = Infinity;
-    let nearestStop = null;
-    const maxDistanceThreshold = 50; // Maximum distance threshold in m
+  const busStopsNearestRoad = coordinates.reduce<SafeStations[]>(
+    (result, point) => {
+      let minDistance = Infinity;
+      let nearestStop: SafeStations | null = null;
+      const maxDistanceThreshold = 10; // Maximum distance threshold in m
 
-    for (const stop of busstore.busstopStore) {
-      const distance = calculateDistance(
-        point[1],
-        point[0],
-        stop.location.lat,
-        stop.location.lng
-      );
-      if (distance < minDistance && distance <= maxDistanceThreshold) {
-        minDistance = distance;
-        nearestStop = stop;
+      for (const stop of busstore.busstopStore) {
+        const distance = calculateDistance(
+          point[1],
+          point[0],
+          stop.location.lat,
+          stop.location.lng
+        );
+        if (distance < minDistance && distance <= maxDistanceThreshold) {
+          minDistance = distance;
+          nearestStop = stop;
+        }
       }
-    }
 
-    return nearestStop;
-  });
+      if (nearestStop !== null && !result.includes(nearestStop)) {
+        result.push(nearestStop);
+      }
 
-  const filteredStops = nearestStops.filter((stop, index, self) => {
-    // Lọc các object null
-    if (stop === null) {
-      return false;
-    }
-
-    // Lọc các object giống nhau
-    const indexInNearestStops = self.findIndex((s) => s === stop);
-    return index === indexInNearestStops;
-  });
+      return result;
+    },
+    []
+  );
 
   return {
     locationNearStart,
@@ -212,7 +209,7 @@ const useFindBusStopNear = () => {
     route,
     walkingEnd,
     coordinates,
-    filteredStops,
+    busStopsNearestRoad,
   };
 };
 

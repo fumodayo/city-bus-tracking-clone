@@ -157,18 +157,18 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({
   }
 
   return (
-    <div
-      className="
+    <>
+      <div
+        className="
         flex 
         flex-row
         p-2
       "
-    >
-      <div>
+      >
         <Icon className="mr-2" size={40} />
+        {content}
       </div>
-      <div>{content}</div>
-    </div>
+    </>
   );
 };
 

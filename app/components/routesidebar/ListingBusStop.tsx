@@ -30,7 +30,7 @@ const ListingBusStop: React.FC<ListingBusStopProps> = ({ listings }) => {
   );
 
   return (
-    <div className="flex p-5 overflow-y-scroll overflow-x-hidden relative h-[60vh]">
+    <div className="flex px-10 overflow-y-scroll overflow-x-hidden relative h-[70vh]">
       <div className="flex absolute top-0">
         <ReactSlider
           className="vertical-slider"
