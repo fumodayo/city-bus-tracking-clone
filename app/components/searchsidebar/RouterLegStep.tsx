@@ -3,6 +3,10 @@
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 import { IconType } from "react-icons";
 import { useState } from "react";
+import {
+  convertDurationDistance,
+  convertDurationTime,
+} from "@/app/utils/convertDuration";
 
 interface RouterLegStepProps {
   type?: string;
@@ -50,7 +54,8 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({
             <div className="text-sm">
               <p className="font-semibold">Chi tiết</p>
               <p className="my-1 text-gray-500">
-                {walkingStart?.distance}m {`(${walkingStart?.duration})`}
+                {convertDurationDistance(walkingStart?.distance)}
+                {` (${convertDurationTime(walkingStart?.duration)})`}
               </p>
             </div>
           </div>
@@ -62,7 +67,8 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({
                     {step.name}
                   </div>
                   <span className="ml-10 my-3 text-gray-500 text-sm">
-                    {step?.distance}m {`(${step?.duration})`}
+                    {convertDurationDistance(step?.distance)}
+                    {` (${convertDurationTime(step?.duration)})`}
                   </span>
                 </div>
               ))}
@@ -92,7 +98,8 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({
             <div className="text-sm">
               <p className="font-semibold">Chi tiết</p>
               <p className="my-1 text-gray-500">
-                {walkingEnd?.distance}m {`(${walkingEnd?.duration})`}
+                {convertDurationDistance(walkingEnd?.distance)}
+                {` (${convertDurationTime(walkingEnd?.duration)})`}
               </p>
             </div>
           </div>
@@ -104,7 +111,8 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({
                     {step.name}
                   </div>
                   <span className="ml-10 my-3 text-gray-500 text-sm">
-                    {step?.distance}m {`(${step?.duration})`}
+                    {convertDurationDistance(step?.distance)}
+                    {` (${convertDurationTime(step?.duration)})`}
                   </span>
                 </div>
               ))}
@@ -136,7 +144,8 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({
             <div className="text-sm">
               <p className="font-semibold">Chi tiết</p>
               <p className="my-1 text-gray-500">
-                {route?.distance}m {`(${route?.duration})`}
+                {convertDurationDistance(route?.distance)}
+                {` (${convertDurationTime(route?.duration)})`}
               </p>
             </div>
           </div>
@@ -147,7 +156,7 @@ const RouterLegStep: React.FC<RouterLegStepProps> = ({
                 {locationNearEnd?.point.name}
               </div>
               <span className="ml-10 my-3 text-gray-500 text-sm">
-                {route?.distance}m
+                {convertDurationDistance(route?.distance)}
               </span>
             </div>
           )}

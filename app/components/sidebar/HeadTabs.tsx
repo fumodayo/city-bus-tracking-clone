@@ -79,8 +79,8 @@ const HeadTabs: React.FC<HeadTabsProps> = ({
           onClick={onChooseTAB_2}
           className={`
             ${step === OPTIONS.TAB_2 && "border-b-2 border-b-[#3597E4]"}
+            w-[50%]
             p-2
-            w-[50%] 
             justify-center 
             items-center
             flex

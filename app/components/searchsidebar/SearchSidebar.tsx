@@ -59,7 +59,7 @@ const SearchSidebar = () => {
             inline-block 
             overflow-y-scroll
             overflow-x-hidden
-            h-[30vh]
+            h-[50vh]
             shadow-[0px_0px_7px_2px_rgba(0,0,0,0.15)] 
             bg-white 
             relative 
@@ -68,7 +68,7 @@ const SearchSidebar = () => {
             ease-[ease] 
             m-4 
             px-0 
-            py-2.5 
+            py-2 
             rounded-[15px]
       "
         >
@@ -100,7 +100,11 @@ const SearchSidebar = () => {
     </div>
   );
 
-  const routeInfo = <ListingBusStop listings={busStopsNearestRoad} />;
+  const routeInfo = (
+    <div>
+      <ListingBusStop listings={busStopsNearestRoad} />
+    </div>
+  );
 
   return (
     <div>
@@ -122,7 +126,7 @@ const SearchSidebar = () => {
       >
         <PinInput
           image="/markerred.png"
-          placeholder="Nhập địa điểm xuất phát, hoặc click lên màn hình"
+          placeholder="Click 2 lần vào bản đồ để chọn vị trí bắt đầu"
           lat={latStart}
           lng={lngStart}
           onClick={onUnpinStart}
@@ -132,7 +136,7 @@ const SearchSidebar = () => {
         </div>
         <PinInput
           image="/markerblue.png"
-          placeholder="Nhập địa điểm kết thúc, hoặc click lên màn hình"
+          placeholder="Click 2 lần vào bản đồ để chọn vị trí kết thúc"
           lat={latEnd}
           lng={lngEnd}
           onClick={onUnpinEnd}

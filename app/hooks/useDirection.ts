@@ -178,7 +178,7 @@ const useFindBusStopNear = () => {
     (result, point) => {
       let minDistance = Infinity;
       let nearestStop: SafeStations | null = null;
-      const maxDistanceThreshold = 10; // Maximum distance threshold in m
+      const maxDistanceThreshold = 50; // Maximum distance threshold in m
 
       for (const stop of busstore.busstopStore) {
         const distance = calculateDistance(
